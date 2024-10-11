@@ -1,44 +1,34 @@
 <br/>
 <p align="center">
 
-  <a href="https://github.com/Blazity/next-saas-starter" >
-    <img src="https://i.imgur.com/jmc2Q1w.png" alt="Logo"  width="49%">
+  <a href="https://github.com/freedomlight2015/lanplayer" >
+    <img src="public/illustration-1.svg" alt="Logo"  width="80%">
   </a>
-   <a href="https://github.com/Blazity/next-saas-starter">
-    <img src="https://i.imgur.com/CxkjHhi.png" alt="Logo" width="49%">
-  </a> 
 
-  <h3 align="center">✨ Free Next.js marketing website template for SaaS startups ✨</h3>
+  <h1 align="center">✨ Watch video in LAN ✨</h1>
 
   <p align="center">
-    Everything you need to build a great landing page / marketing website for your startup. Great SEO metrics, Green WebVitals, 🚀 Performance, Clean & Pragmatic Codebase out of the box.
+   LanPlayer is a powerful software designed for seamless video sharing and playback across local area networks (LAN).🚀 It supports almost all popular video formats on almost all devices.
     <br/>
     <br/>
-    <a href="https://next-saas-starter-ashy.vercel.app/">View Demo</a>
+    <a href="https://lanplayer.app/">Homepage</a>
     .
-    <a href="https://github.com/Blazity/next-saas-starter/issues">Report Bug</a>
+    <a href="https://github.com/freedomlight2015/lanplayer/issues">Report Bug</a>
     .
-    <a href="https://github.com/Blazity/next-saas-starter/issues">Request Feature</a>
+    <a href="https://github.com/freedomlight2015/lanplayer/issues">Request Feature</a>
   </p>
 </p>
 
 <div align="center">
 
-![Contributors](https://img.shields.io/github/contributors/Blazity/next-saas-starter?color=dark-green) ![Issues](https://img.shields.io/github/issues/Blazity/next-saas-starter) ![License](https://img.shields.io/github/license/Blazity/next-saas-starter)
+![Contributors](https://img.shields.io/github/contributors/freedomlight2015/lanplayer?color=dark-green) ![Issues](https://img.shields.io/github/issues/freedomlight2015/lanplayer)
 
 </div>
-
-<p align="center"><b>Created with :heart: at Blazity </b></p>
-<p align="center"><a href="https://blazity.com/">Blazity</a> is a group of Next.js/Jamstack/Headless experts. Contact us at <a href="mailto:contact@blazity.com">contact@blazity.com</a> if you’d like to talk about your project or just to have a chat with us</p>
-
-<a href="https://discord.gg/fyWtyNKmfX" style="width: 100%; display: flex; justify-content: center;">
-  <img src="https://discordapp.com/api/guilds/1111676875782234175/widget.png?style=banner2" alt="Blazity Discord Banner"/>
-</a>
-<br />
 
 ## Table Of Contents
 
 - [Features](#-features)
+- [Download](#-Download)
 - [Getting Started](#-getting-started)
 - [One click deploy](#one-click-deploy)
 - [Built With](#-built-with)
@@ -50,39 +40,73 @@
 
 ## Features
 
-- ⚡ **Next.js** - React framework for static rendering
-- **Best SEO setup** - Meta Tags, JSON-LD and Open Graph Tags
+- ⚡ Easily share and play videos/movies within the local network (LAN) using Lanplayer , it supports almost all devices and all video formats.
+- Easy management with bulk video import and deletion.
+- **Watch on webbrowser without install software**.
+- Supports playback history, automatically resumes from the last played position.
+- With the Access Pwssword, you can keep your video files safe.
+- Play 1080p and 4K video without no reduction in output quality.
 - **[Tina CMS](https://tina.io/) integration** - local & (optional) production CMS
-- **Optimized for Web Vitals**
-- **Blog with MDX**
-- **Mailchimp Integration** - for newsletters
-- **Sendgrid Integration** - for sending emails
-- **Dark mode** - and customizable themes!
-- **No UI library** - just styled components, so you don't have to learn any new syntax
-- **One click deployment** - with Vercel or any other serverless deployment environment
-- **Eslint** - with Next.js's recommended settings and imports sorting rule
-- **Prettier**
+
+## Download
+
+<table>
+    <thead>
+        <tr>
+            <th>Platform</th>
+            <th>Package Type</th>
+            <th>Download Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=2>Windows</td>
+            <td><code>EXE Installer</code></td>
+            <td><a href="">Link</a></td>
+        </tr>
+        <tr>
+            <td><code>Portable ZIP</code></td>
+            <td><a href="">Link</a></td>
+        </tr>
+        <tr>
+            <td>MacOS</td>
+            <td><code>DMG Installer</code></td>          
+            <td><a href="">Link</a></td>
+        </tr>
+        <tr>
+            <td rowspan=4>Linux</td>
+            <td><code>Flathub</code></td>
+            <td><a href="">Link</a></td>
+        </tr>
+        <tr>
+            <td><code>SNAP</code></td>
+            <td><a href="">Link</a></td>
+        </tr>
+        <tr>
+            <td><code>DEB</code></td>
+            <td><a href="">Link</a></td>
+        </tr>
+        <tr>
+            <td>Android</td>
+            <td><code>APK</code></td>
+            <td><a href="">Link</a></td>
+        </tr>
+        <tr>
+            <td>iOS</td>
+            <td><code>IPA</code></td>
+            <td><a href="">Link</a></td>
+        </tr>
+    </tbody>
+</table>
 
 ## 🤓 Getting Started
 
-- Click `Use the template` or [this link](https://github.com/Blazity/next-saas-starter/generate)
-- Setup your [sendgrid](https://sendgrid.com/) API key and add it to environment variables (`SENDGRID_API_KEY` - `.env.local`)
-- Adjust the template to your needs (and checkout `env.ts` file)
-- Deploy the project on [Vercel](https://vercel.com/) **don't forget to add env variables**
-- _(optional)_ Create [Tina Cloud account](https://app.tina.io/), [a project](https://tina.io/docs/tina-cloud/) and fill these `NEXT_PUBLIC_ORGANIZATION_NAME`, `NEXT_PUBLIC_TINA_CLIENT_ID` env vars with proper values
-  > Tina's Content API authenticates directly with GitHub removing the need for users to create GitHub accounts. Access is granted through the dashboard, allowing users to login directly through your site and begin editing! Any changes that are saved by your editors will be commited to the configured branch in your GitHub repository.
-  - For more details [see the docs](https://tina.io/docs/tina-cloud/)
+- 1. Click [this link](https://lanplayer.app) download the software.
+- 2. Add the videos you want to watch to Lanplayer. You can either directly import a folder or select multiple videos to add.
+- 3. Click the "Start sharing Video" button.
+- 4. Watch video, you can access the video from other device,like phone or computer, click [this link](https://lanplayer.app) see the demo video.
+- For more details [see the app homepage](https://lanplayer.app)
 
-```
-# run the dev mode
-$ yarn dev
-
-# run the prod mode
-yarn start
-
-# build the app
-yarn build
-```
 
 > Hint: To edit the blog pages go to [/admin](http://localhost:3000/admin) and navigate to a blog page to edit it. To exit editing mode navigate to [/admin/logout](http://localhost:3000/admin/logout)
 
