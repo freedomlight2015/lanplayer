@@ -69,7 +69,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               <li>Multi-language support for easier operation.</li>
             </ul>
           </BasicSection>
-          <BasicSection imageUrl="/Top-5-Web-Browsers.svg" title="Watch on webbrowser">
+          <BasicSection imageUrl="/web-video-demo.png" title="Watch on webbrowser">
             <p>
             We also support watching directly on the webbrowser without the need to download any software on the phone (attension: the webpage only supports playing common video formats like MP4, but that is sufficient for many videos).
             </p>

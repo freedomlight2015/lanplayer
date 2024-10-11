@@ -112,9 +112,12 @@
 
 ## 🚀 Demo video
 
-<img src="public/add_video_to_lanplayer.gif" alt="lanplayer demo"  width="80%">
-<img src="public/app_video_demo.gif" alt="lanplayer demo"  width="80%">
-<img src="public/web_video_demo.gif" alt="lanplayer demo"  width="80%">
+<img src="public/add_video_to_lanplayer.gif" alt="lanplayer demo"  width="50%">
+<br/>
+<img src="public/app_video_demo.gif" alt="lanplayer demo"  width="50%">
+<br/>
+<img src="public/web_video_demo.gif" alt="lanplayer demo"  width="50%">
+<br/>
 
 ## 🧰 Built With
 
