@@ -20,13 +20,10 @@ export default function Hero() {
         LanPlayer is a powerful software designed for seamless video sharing and playback across local area networks (LAN).It supports almost all popular video formats on almost all devices.
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            download
+        <NextLink href="/download" passHref>
+          <Button>
+            Download
           </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
-            </Button>
           </NextLink>
         </CustomButtonGroup>
       </Contents>
