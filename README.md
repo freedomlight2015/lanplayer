@@ -41,11 +41,11 @@
 ## Features
 
 - ⚡ Easily share and play videos/movies within the local network (LAN) using Lanplayer , it supports almost all devices and all video formats.
-- Easy management with bulk video import and deletion.
-- **Watch on webbrowser without install software**.
-- Supports playback history, automatically resumes from the last played position.
-- With the Access Pwssword, you can keep your video files safe.
-- Play 1080p and 4K video without no reduction in output quality.
+- **Easy to use:** Easy management with bulk video import and deletion.
+- **Support web browser:** Watch on webbrowser without install software.
+- **PlayList & history** Supports playback history, automatically resumes from the last played position.
+- **Privicy support:** With the Access Pwssword, you can keep your video files safe.
+- **High quality** Play 1080p and 4K video without no reduction in output quality.
 
 ## Download
 
