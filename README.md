@@ -30,8 +30,8 @@
 - [Features](#-features)
 - [Download](#-Download)
 - [Getting Started](#-getting-started)
-- [One click deploy](#one-click-deploy)
-- [Built With](#-built-with)
+- [Demo video](#demo-video)
+- [Questions](#-questions)
 - [Contributing](#-contributing)
   - [Creating A Pull Request](#creating-a-pull-request)
 - [Acknowledgements](#-acknowledgements)
@@ -110,15 +110,11 @@
 
 > Hint: To edit the blog pages go to [/admin](http://localhost:3000/admin) and navigate to a blog page to edit it. To exit editing mode navigate to [/admin/logout](http://localhost:3000/admin/logout)
 
-## 🚀 One click deploy
+## 🚀 Demo video
 
-Clone the repository and one-click deploy to Vercel for free!
-
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-saas-starter)
-
-Clone the repository and one-click deploy to Netlify for free!
-
-[![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Blazity/next-saas-starter)
+<img src="public/add_video_to_lanplayer.gif" alt="lanplayer demo"  width="80%">
+<img src="public/app_video_demo.gif" alt="lanplayer demo"  width="80%">
+<img src="public/web_video_demo.gif" alt="lanplayer demo"  width="80%">
 
 ## 🧰 Built With
 
