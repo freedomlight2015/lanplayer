@@ -117,7 +117,7 @@
 ### Watch on app
 <img src="public/app_video_demo.gif" alt="lanplayer demo"  width="50%">
 
-### Watch on demo
+### Watch on webbrowser
 <img src="public/web_video_demo.gif" alt="lanplayer demo"  width="50%">
 
 ## 🤲🏻 Questions
