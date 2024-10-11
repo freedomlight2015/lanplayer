@@ -16,24 +16,6 @@ import SectionTitle from 'components/SectionTitle';
 import FaqSection from 'views/PricingPage/FaqSection';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const myRef = useRef<HTMLDivElement | null>(null);
-
-  const scrollToHash = () => {
-    const hash = window.location.hash;
-    if (hash === '#features' && myRef.current) {
-      document.documentElement.scrollTo({
-        top: myRef.current.offsetTop,
-        behavior: "smooth"
-      });
-    }
-  };
-
-  // 初次加载时滚动到 hash 位置
-  useEffect(() => {
-    scrollToHash();  // 页面初次加载时处理 hash
-  }, []);
-
-
 
   return (
     <>
@@ -50,7 +32,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <Hero />
           <SectionTitle>Features</SectionTitle>
           <BasicSection imageUrl="/support_all_device.svg" title="Support multiple devices">
-            <p ref={myRef}>
+            <p>
             Easily share and play videos/movies within the local network (LAN) using Lanplayer , it supports almost all devices.
             <ul>
               <li>Devices:<strong>Windows,Android, Linux, MacOS, iOS</strong></li>
