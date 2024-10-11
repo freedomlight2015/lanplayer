@@ -29,7 +29,7 @@ export default function DownloadCard({ title, requirements, isOutlined, btns, ch
         )}
       </DownloadContainer>
       {btns.map((button, idx) => (
-      <CustomButton>
+      <CustomButton key={idx}>
         {button.label}
       </CustomButton>
     ))}

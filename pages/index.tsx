@@ -1,4 +1,3 @@
-import { useRef, useEffect } from 'react';
 import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import styled from 'styled-components';
@@ -42,7 +41,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           </BasicSection>
           <BasicSection imageUrl="/watch_on_bed.png" title="Easy to use" reversed>
             <p>
-            Many times, we download movies from the internet to our computers and want to watch them on our phones while lying in bed. However, it's too troublesome, and the phone's storage space isn't enough.The Lanplayer can help.
+            Many times, we download movies from the internet to our computers and want to watch them on our phones while lying in bed. However, it&apos;s too troublesome, and the phone&apos;s storage space isn&apos;t enough.The Lanplayer can help.
             </p>
             <ul>
               <li>Easy management with bulk video import and deletion.</li>
