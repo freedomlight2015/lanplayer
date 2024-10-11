@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <Heading>Watch video in LAN</Heading>
+        <Heading>Watch video on LAN</Heading>
         <Description>
         LanPlayer is a powerful software designed for seamless video sharing and playback across local area networks (LAN).It supports almost all popular video formats on almost all devices.
         </Description>
