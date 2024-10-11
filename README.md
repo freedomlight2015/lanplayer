@@ -28,7 +28,7 @@
 ## Table Of Contents
 
 - [Features](#-features)
-- [Download](#-Download)
+- [Download](#-download)
 - [Getting Started](#-getting-started)
 - [Demo video](#demo-video)
   - [Add video & start share](#add-video-start-share)
@@ -43,9 +43,9 @@
 - ⚡ Easily share and play videos/movies within the local network (LAN) using Lanplayer , it supports almost all devices and all video formats.
 - **Easy to use:** Easy management with bulk video import and deletion.
 - **Support web browser:** Watch on webbrowser without install software.
-- **PlayList & history** Supports playback history, automatically resumes from the last played position.
+- **Support PlayList & history:** Supports playback history, automatically resumes from the last played position.
 - **Privicy support:** With the Access Pwssword, you can keep your video files safe.
-- **High quality** Play 1080p and 4K video without no reduction in output quality.
+- **High quality:** Play 1080p and 4K video without no reduction in output quality.
 
 ## Download
 
@@ -73,7 +73,7 @@
             <td><a href="">Link</a></td>
         </tr>
         <tr>
-            <td rowspan=4>Linux</td>
+            <td rowspan=3>Linux</td>
             <td><code>Flathub</code></td>
             <td><a href="">Link</a></td>
         </tr>
@@ -86,7 +86,7 @@
             <td><a href="">Link</a></td>
         </tr>
         <tr>
-            <td rowspan=2>Android</td>
+            <td>Android</td>
             <td><code>APK</code></td>
             <td><a href="">Link</a></td>
         </tr>
