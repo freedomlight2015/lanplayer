@@ -31,6 +31,9 @@
 - [Download](#-Download)
 - [Getting Started](#-getting-started)
 - [Demo video](#demo-video)
+  - [Add video & start share](#add-video-start-share)
+  - [Watch on web browser](#watch-on-web-browser)
+  - [Watch on app](#watch-on-app)
 - [Questions](#-questions)
 - [Contributing](#-contributing)
   - [Creating A Pull Request](#creating-a-pull-request)
@@ -112,12 +115,15 @@
 
 ## 🚀 Demo video
 
+### Add video and start share
 <img src="public/add_video_to_lanplayer.gif" alt="lanplayer demo"  width="50%">
-<br/>
+
+### Watch on app
 <img src="public/app_video_demo.gif" alt="lanplayer demo"  width="50%">
-<br/>
+
+### Watch on demo
 <img src="public/web_video_demo.gif" alt="lanplayer demo"  width="50%">
-<br/>
+
 
 ## 🧰 Built With
 
