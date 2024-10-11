@@ -49,7 +49,6 @@
 - Supports playback history, automatically resumes from the last played position.
 - With the Access Pwssword, you can keep your video files safe.
 - Play 1080p and 4K video without no reduction in output quality.
-- **[Tina CMS](https://tina.io/) integration** - local & (optional) production CMS
 
 ## Download
 
@@ -111,7 +110,7 @@
 - For more details [see the app homepage](https://lanplayer.app)
 
 
-> Hint: To edit the blog pages go to [/admin](http://localhost:3000/admin) and navigate to a blog page to edit it. To exit editing mode navigate to [/admin/logout](http://localhost:3000/admin/logout)
+> Hint: the webpage only supports playing common video formats like MP4, but that is sufficient for many videos
 
 ## 🚀 Demo video
 
@@ -132,20 +131,17 @@
 - [MDX](https://github.com/mdx-js/mdx)
 - [TypeScript](https://github.com/Microsoft/TypeScript)
 
-## 🤲🏻 Contributing
+## 🤲🏻 Questions
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Do I need to install the software on all devices?
 
-- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Blazity/next-saas-starter/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
-- Create individual PR for each suggestion.
+- Only the device sharing the videos needs to install the software. Other devices can watch via their built-in browser without any installation.
 
-### Creating A Pull Request
+Why can’t the browser support all video formats?
+- The HTML5 standard supports only common media formats and codecs. MP4 is the most widely supported format by browsers, and most videos today are in this format.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Is it free to use?
+- You can try it for free for 7 days. After that, a purchase is required, but don’t worry, the price is very affordable, and future updates are provided for free.
 
 ## 😎 Acknowledgements
 
