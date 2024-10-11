@@ -15,6 +15,7 @@ const footerItems: FooterItems = [
     items: [
       { title: 'Privacy Policy', href: '/privacy-policy' },
       { title: 'Terms of Service', href: '/terms-of-service' },
+      { title: 'Refund Policy', href: '/refund-policy' },
     ],
   },
   {
