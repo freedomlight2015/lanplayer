@@ -43,7 +43,18 @@ function MyApp({ Component, pageProps }: AppProps) {
         /> */}
         {/* <script async src="https://www.google-analytics.com/analytics.js"></script> */}
       </Head>
-      <ColorModeScript />
+      {/* Set localStorage to force light mode */}
+      <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                try {
+                  localStorage.setItem('nextColorMode', 'light');
+                } catch (e) {}
+              `,
+            }}
+          />
+          {/* Then apply the ColorModeScript */}
+      <ColorModeScript/>;
       <GlobalStyle />
 
       <Providers>

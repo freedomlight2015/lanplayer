@@ -30,7 +30,12 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <SectionTitle>Features</SectionTitle>
-          <BasicSection imageUrl="/support_all_device.svg" title="Support multiple devices">
+          <BasicSection imageUrl="/feature-1.png" title="Video share & play in LAN">
+            <p>
+            Effortlessly share and stream videos across multiple devices within your local network. Perfect for home, office, or any LAN environment.
+            </p>
+          </BasicSection>
+          <BasicSection imageUrl="/support_all_device.svg" title="Support multiple devices" reversed>
             <p>
             Easily share and play videos/movies within the local network (LAN) using Lanplayer , it supports almost all devices.
             <ul>
@@ -39,7 +44,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             </ul>
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/watch_on_bed.png" title="Easy to use" reversed>
+          <BasicSection imageUrl="/watch_on_bed.png" title="Easy to use" >
             <p>
             Many times, we download movies from the internet to our computers and want to watch them on our phones while lying in bed. However, it&apos;s too troublesome, and the phone&apos;s storage space isn&apos;t enough.The Lanplayer can help.
             </p>
@@ -50,7 +55,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               <li>Multi-language support for easier operation.</li>
             </ul>
           </BasicSection>
-          <BasicSection imageUrl="/web-video-demo.png" title="Watch on webbrowser">
+          <BasicSection imageUrl="/web-video-demo.png" title="Watch on webbrowser" reversed>
             <p>
             We also support watching directly on the webbrowser without the need to download any software on the phone (attension: the webpage only supports playing common video formats like MP4, but that is sufficient for many videos).
             </p>
