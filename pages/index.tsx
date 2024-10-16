@@ -33,6 +33,10 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <BasicSection imageUrl="/feature-1.png" title="Video share & play in LAN">
             <p>
             Effortlessly share and stream videos across multiple devices within your local network. Perfect for home, office, or any LAN environment.
+            <ul>
+              <li>PC share to phone</li>
+              <li>Phone share to pc</li>
+            </ul>
             </p>
           </BasicSection>
           <BasicSection imageUrl="/support_all_device.svg" title="Support multiple devices" reversed>
