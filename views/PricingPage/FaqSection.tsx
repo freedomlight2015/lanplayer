@@ -9,10 +9,10 @@ export default function FaqSection() {
       <Container>
       <SectionTitle>Frequently asked question</SectionTitle>
       <div style={{ height: '3rem' }}></div>
-      <Accordion title="How many devices are supported?">
-      There is no limit on the number of devices. The only limitation is your LAN's bandwidth, which usually isn't an issue in a typical local network.
+      <Accordion title="Do I need to purchase a separate serial number for each device?">
+      You only need to buy one to register all your devices, and you can check the specific number of supported devices on the pricing page.
       </Accordion>
-      <Accordion title="Why can’t the browser support all video formats?">
+      <Accordion title="Why can’t the web browser support all video formats?">
       The HTML5 standard supports only common media formats and codecs. MP4 is the most widely supported format by browsers, and most videos today are in this format.
       </Accordion>
       <Accordion title="Is it free to use?">

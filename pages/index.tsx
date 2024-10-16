@@ -20,7 +20,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
     <>
       <Head>
         <title>{EnvVars.SITE_NAME}</title>
-        <meta name="keywords" content="LanPlayer, LAN video sharing, LAN media player, LAN media sharing app, Local video server" />
+        <meta name="keywords" content="LanPlayer, Home video server, Home movie server,LAN video sharing, LAN media player, LAN media sharing app, Local video server" />
         <meta
           name="description"
           content="LanPlayer is a powerful software designed for seamless video sharing and playback across local area networks (LAN).It supports almost all popular video formats on almost all devices."
