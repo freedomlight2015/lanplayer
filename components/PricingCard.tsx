@@ -12,7 +12,29 @@ interface PricingCardProps {
 
 export default function PricingCard({ title, benefits, isOutlined, children }: PropsWithChildren<PricingCardProps>) {
   const isAnyBenefitPresent = benefits?.length;
-
+  let itemsList = [
+    {
+      priceId: "pri_01jbg68y4c55th9pgctqba3dc5",
+      quantity: 1
+    },
+  ];
+  let customerInfo = {
+    email: "it@hzxit.com",
+  };
+  const onPayment = () => {
+    if (window.Paddle) {
+      window.Paddle.Checkout.open({
+        settings: {
+          displayMode: "overlay",
+          theme: "light",
+          locale: "en"
+        },
+        items: itemsList,
+      });
+    } else {
+      console.error("Paddle SDK not loaded.");
+    }
+  }
   return (
     <Wrapper isOutlined={isOutlined}>
       <Title>{title}</Title>
@@ -28,7 +50,7 @@ export default function PricingCard({ title, benefits, isOutlined, children }: P
           </CustomRichText>
         )}
       </PriceContainer>
-      <CustomButton>Get started</CustomButton>
+      <CustomButton onClick={onPayment}>Get started</CustomButton>
     </Wrapper>
   );
 }
