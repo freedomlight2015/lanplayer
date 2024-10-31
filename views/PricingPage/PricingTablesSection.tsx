@@ -14,7 +14,7 @@ export default function PricingTablesSection() {
         checkout: {
           settings: {
             displayMode: 'overlay',
-            theme: 'dark',
+            theme: 'light',
             frameTarget: 'paddle-checkout-frame',
             frameInitialHeight: 450,
             frameStyle: 'width: 100%; background-color: transparent; border: none',
@@ -38,30 +38,34 @@ export default function PricingTablesSection() {
           title="free"
           benefits={['7 days trial','No limit']}
           paddle={paddle}
+          priceid=''
         >
           $0<span>/week</span>
         </PricingCard>
         <PricingCard
           title="1 year"
-          benefits={['1 serial number', 'register 50 devices','No limit']}
+          benefits={['1 serial number', 'register 10 devices','No limit']}
           isOutlined
           paddle={paddle}
+          priceid='pri_01jbg68y4c55th9pgctqba3dc5'
         >
           $10<span>/1 year</span>
         </PricingCard>
         <PricingCard
           title="3 year"
-          benefits={['1 serial number', 'register 100 devices','No limit']}
+          benefits={['1 serial number', 'register 30 devices','No limit']}
           paddle={paddle}
+          priceid='pri_01jbgr6kmb9neh3bmaktp3f4h3'
         >
           $20<span>/3 year</span>
         </PricingCard>
         <PricingCard
           title="Permanent"
-          benefits={['1 serial number', 'register 200 devices','No limit']}
+          benefits={['1 serial number', 'register 100 devices','No limit']}
           paddle={paddle}
+          priceid='pri_01jbgr7gskp89m4ahbs5qa62pb'
         >
-          $50<span>/Permanent</span>
+          $30<span>/Permanent</span>
         </PricingCard>
       </AutofitGrid>
 

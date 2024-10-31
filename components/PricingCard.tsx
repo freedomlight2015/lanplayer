@@ -10,16 +10,17 @@ interface PricingCardProps {
   benefits: string[];
   isOutlined?: boolean;
   paddle: Paddle | null;
+  priceid: string;
 }
 
-export default function PricingCard({ title, benefits, isOutlined, paddle, children }: PropsWithChildren<PricingCardProps>) {
+export default function PricingCard({ title, benefits, isOutlined, paddle, priceid, children }: PropsWithChildren<PricingCardProps>) {
   const isAnyBenefitPresent = benefits?.length;
   
   const onPayment = () => {
     console.log("paddle instance"+paddle);
           paddle?.Checkout.open({
             customer: { email: "it@hzxit.com" },
-            items: [{ priceId: "pri_01jbg68y4c55th9pgctqba3dc5", quantity: 1 }],
+            items: [{ priceId: priceid, quantity: 1 }],
           });
   }
   return (
