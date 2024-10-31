@@ -8,25 +8,28 @@ import SectionTitle from 'components/SectionTitle';
 export default function PricingTablesSection() {
   const [paddle, setPaddle] = useState<Paddle | null>(null);
   useEffect(() => {
-    
-    if(!paddle?.Initialized){
-      paddle?.Environment.set("sandbox");
-      initializePaddle(
-        {
-          token:'live_53e3768da938d28bd8793e14aa1',
-          checkout: {
-            settings: {
-              displayMode: 'overlay',
-              theme: 'dark',
-              frameTarget: 'paddle-checkout-frame',
-              frameInitialHeight: 450,
-              frameStyle: 'width: 100%; background-color: transparent; border: none',
-            },
+    const initPaddle = async () => {
+      const paddleInstance = await initializePaddle({
+        token: 'live_53e3768da938d28bd8793e14aa1',
+        checkout: {
+          settings: {
+            displayMode: 'overlay',
+            theme: 'dark',
+            frameTarget: 'paddle-checkout-frame',
+            frameInitialHeight: 450,
+            frameStyle: 'width: 100%; background-color: transparent; border: none',
           },
-        }
-      )
-    }
+        },
+      });
+
+      if (paddleInstance) {
+        setPaddle(paddleInstance);
+        paddleInstance.Environment.set("sandbox"); // 设置环境
+      }
+    };
+    initPaddle();
   }, []);
+
   return (
     <Wrapper>
       <SectionTitle>Flexible and affordable pricing for you</SectionTitle>
