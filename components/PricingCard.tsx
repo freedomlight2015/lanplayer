@@ -1,6 +1,7 @@
-import { PropsWithChildren } from 'react';
+import { PropsWithChildren, useState } from 'react';
 import styled from 'styled-components';
 import { media } from 'utils/media';
+import { Environments, initializePaddle, Paddle } from '@paddle/paddle-js';
 import Button from './Button';
 import RichText from './RichText';
 
@@ -8,32 +9,18 @@ interface PricingCardProps {
   title: string;
   benefits: string[];
   isOutlined?: boolean;
+  paddle: Paddle | null;
 }
 
-export default function PricingCard({ title, benefits, isOutlined, children }: PropsWithChildren<PricingCardProps>) {
+export default function PricingCard({ title, benefits, isOutlined, paddle, children }: PropsWithChildren<PricingCardProps>) {
   const isAnyBenefitPresent = benefits?.length;
-  let itemsList = [
-    {
-      priceId: "pri_01jbg68y4c55th9pgctqba3dc5",
-      quantity: 1
-    },
-  ];
-  let customerInfo = {
-    email: "it@hzxit.com",
-  };
+  
   const onPayment = () => {
-    if (window.Paddle) {
-      window.Paddle.Checkout.open({
-        settings: {
-          displayMode: "overlay",
-          theme: "light",
-          locale: "en"
-        },
-        items: itemsList,
-      });
-    } else {
-      console.error("Paddle SDK not loaded.");
-    }
+    console.log("paddle instance"+paddle);
+          paddle?.Checkout.open({
+            customer: { email: "it@hzxit.com" },
+            items: [{ priceId: "pri_01jbg68y4c55th9pgctqba3dc5", quantity: 1 }],
+          });
   }
   return (
     <Wrapper isOutlined={isOutlined}>
