@@ -1,7 +1,7 @@
+import { useCallback, useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import styled from 'styled-components';
 import Container from 'components/Container';
-import { useRouter } from 'next/router';
-import { useEffect, useState, useCallback } from 'react';
 
 interface SerialNumber {
   sn: string;
