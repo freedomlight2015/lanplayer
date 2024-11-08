@@ -18,9 +18,9 @@ const TABS = [
     secondColor: '221,9,57',
   },
   {
-    title: 'Step 2: Add video and start share.',
+    title: 'Step 2: Add media and start share.',
     description:
-      '<p>1. <strong>Add video</strong>.Add the videos you want to watch to Lanplayer. You can either directly import a folder or select multiple videos to add. </p><p>2. <strong>Start sharing</strong>. Click the "<strong>Start sharing Video</strong>" button.</p>',
+      '<p>1. <strong>Add media</strong>.Add the videos/audios you want to watch to Lanplayer. You can either directly import a folder or select multiple videos/audios to add. </p><p>2. <strong>Start sharing</strong>. Click the "<strong>Start sharing</strong>" button.</p>',
     imageUrl: '/add_video_to_lanplayer.gif',
     baseColor: '57,148,224',
     secondColor: '99,172,232',

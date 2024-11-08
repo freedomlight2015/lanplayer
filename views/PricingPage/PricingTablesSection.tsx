@@ -20,11 +20,19 @@ export default function PricingTablesSection() {
             frameStyle: 'width: 100%; background-color: transparent; border: none',
           },
         },
+        eventCallback: function(data){
+          //console.log(data);
+          if (data.name == "checkout.completed" && data.data?.status == "completed"){
+            var transaction_id = data.data?.transaction_id;
+            //redirect to success page
+            window.location.href = "/success?transaction_id=" + transaction_id;
+          }
+        }
       });
 
       if (paddleInstance) {
+        //paddleInstance.Environment.set("sandbox"); // 设置环境
         setPaddle(paddleInstance);
-        paddleInstance.Environment.set("sandbox"); // 设置环境
       }
     };
     initPaddle();

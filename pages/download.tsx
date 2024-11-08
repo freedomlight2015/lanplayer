@@ -41,7 +41,7 @@ const DownloadPage = () => {
         <Separator />
         <SectionTitle>Frequently asked question</SectionTitle>
       <Accordion title="Do I need to install the software on all devices?" isOpen={true}>
-      Only the device sharing the videos needs to install the software. Other devices can watch via their built-in browser without any installation.
+      Only the device sharing the media needs to install the software. Other devices can watch via their built-in browser without any installation.
       </Accordion>
     </Wrapper>
     </Page>

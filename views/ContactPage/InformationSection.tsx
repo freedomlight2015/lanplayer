@@ -7,7 +7,7 @@ export default function InformationSection() {
       <Container>
       <h3>Contact Info</h3>
       <p>
-        <span><strong>Email:</strong></span> <a href="mailto:greenshield007@yandex.com">greenshield007@yandex.com</a>
+        <span><strong>Email:</strong></span> <a href="mailto:lanplayer@hzxit.com">lanplayer@hzxit.com</a>
       </p>
       <p>
         <span><strong>Github issues:</strong></span> <a href="https://github.com/freedomlight2015/lanplayer/issues" target="_blank">https://github.com/freedomlight2015/lanplayer/issues</a>

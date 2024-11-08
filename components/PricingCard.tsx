@@ -38,7 +38,9 @@ export default function PricingCard({ title, benefits, isOutlined, paddle, price
           </CustomRichText>
         )}
       </PriceContainer>
+      {priceid && (
       <CustomButton onClick={onPayment}>Get started</CustomButton>
+      )}
     </Wrapper>
   );
 }

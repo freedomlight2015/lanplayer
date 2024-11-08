@@ -20,19 +20,19 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
     <>
       <Head>
         <title>{EnvVars.SITE_NAME}</title>
-        <meta name="keywords" content="LanPlayer, Home video server, Home movie server,LAN video sharing, LAN media player, LAN media sharing app, Local video server" />
+        <meta name="keywords" content="LanPlayer, Home media server, Home movie server,LAN video sharing, LAN media player, LAN media sharing app, Local video server" />
         <meta
           name="description"
-          content="LanPlayer is a powerful software designed for seamless video sharing and playback across local area networks (LAN).It supports almost all popular video formats on almost all devices."
+          content="LanPlayer is a powerful software designed for seamless video/audio sharing and playback across local area networks (LAN).It supports almost all popular video/audio formats on almost all devices."
         />
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
           <SectionTitle>Features</SectionTitle>
-          <BasicSection imageUrl="/feature-1.png" title="Video share & play in LAN">
+          <BasicSection imageUrl="/feature-1.png" title="Media share & play in LAN">
             <p>
-            Effortlessly share and stream videos across multiple devices within your local network. Perfect for home, office, or any LAN environment.
+            Effortlessly share and stream videos/audios across multiple devices within your local network. Perfect for home, office, or any LAN environment.
             <ul>
               <li>PC share to phone</li>
               <li>Phone share to pc</li>
@@ -44,7 +44,8 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
             Easily share and play videos/movies within the local network (LAN) using Lanplayer , it supports almost all devices.
             <ul>
               <li>Devices:<strong>Windows,Android, Linux, MacOS, iOS</strong></li>
-              <li>Formart:<strong>MP4, AVI, MKV, FLV, WMV, RMVB, MOV…</strong></li>
+              <li>Video formart:<strong>MP4, AVI, MKV, FLV, WMV, RMVB, MOV…</strong></li>
+              <li>Audio formart:<strong>MP3, WAV, AAC, FLAC, M4A, WMA…</strong></li>
             </ul>
             </p>
           </BasicSection>
@@ -61,7 +62,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           </BasicSection>
           <BasicSection imageUrl="/web-video-demo.png" title="Watch on webbrowser" reversed>
             <p>
-            We also support watching directly on the webbrowser without the need to download any software on the phone (attension: the webpage only supports playing common video formats like MP4, but that is sufficient for many videos).
+            We also support watching directly on the webbrowser without the need to download any software on the phone (attension: the webpage only supports playing common video formats like MP4、MP3, but that is sufficient for many videos).
             </p>
           </BasicSection>
         </WhiteBackgroundContainer>
