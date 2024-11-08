@@ -19,7 +19,6 @@ export default function PricingCard({ title, benefits, isOutlined, paddle, price
   const onPayment = () => {
     console.log("paddle instance"+paddle);
           paddle?.Checkout.open({
-            customer: { email: "it@hzxit.com" },
             items: [{ priceId: priceid, quantity: 1 }],
           });
   }
