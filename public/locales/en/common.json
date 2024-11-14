@@ -1,0 +1,187 @@
+{
+    "meta": {
+        "title": "LanPlayer - Simple Home Media Server",
+        "keywords": "LanPlayer, Home media server, Home movie server, LAN video sharing, LAN media player, LAN media sharing app, Local video server",
+        "description": "LanPlayer is a powerful software designed for seamless video/audio sharing and playback across local area networks (LAN). It supports almost all popular video/audio formats on almost all devices."
+    },
+    "navbar": {
+        "download": "Download",
+        "pricing": "Pricing",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Simple Home media server",
+        "description": "LanPlayer is a powerful software designed for seamless video/audio sharing and playback across local area networks (LAN). It supports almost all popular video/audio formats on almost all devices.",
+        "downloadButton": "Download"
+    },
+    "features": "Features",
+    "mediaShare": {
+        "title": "Media share & play in LAN",
+        "description": "Effortlessly share and stream videos/audios across multiple devices within your local network. Perfect for home, office, or any LAN environment.",
+        "pcToPhone": "PC share to phone",
+        "phoneToPC": "Phone share to pc"
+    },
+    "multiDevice": {
+        "title": "Support multiple devices",
+        "description": "Easily share and play videos/movies within the local network (LAN) using Lanplayer, it supports almost all devices.",
+        "devices": "Devices:",
+        "devicesList": "Windows, Android, Linux, MacOS, iOS",
+        "videoFormat": "Video format:",
+        "videoFormatList": "MP4, AVI, MKV, FLV, WMV, RMVB, MOV…",
+        "audioFormat": "Audio format:",
+        "audioFormatList": "MP3, WAV, AAC, FLAC, M4A, WMA…"
+    },
+    "easyToUse": {
+        "title": "Easy to use",
+        "description": "Many times, we download movies from the internet to our computers and want to watch them on our phones while lying in bed. However, it's too troublesome, and the phone's storage space isn't enough. The Lanplayer can help.",
+        "features": {
+            "import": "Easy management with bulk video import and deletion.",
+            "history": "Supports playback history, automatically resumes from the last played position.",
+            "password": "With the Access Password, you can keep your video files safe.",
+            "language": "Multi-language support for easier operation."
+        }
+    },
+    "webBrowser": {
+        "title": "Watch on webbrowser",
+        "description": "We also support watching directly on the webbrowser without the need to download any software on the phone (attention: the webpage only supports playing common video formats like MP4、MP3, but that is sufficient for many videos)."
+    },
+    "cta": {
+        "title": "So, if you're interested in LanPlayer, start using it now!",
+        "downloadButton": "Download for free"
+    },
+    "useSteps": {
+        "overTitle": "Use step",
+        "sectionTitle": "What are the steps for using it?",
+        "tabs": {
+            "step1": {
+                "title": "Step 1: Download the Lanplayer to your computer or phone.",
+                "description": "<p>Then lanplayer software support almost all devices, Windows, Android, Linux, MacOS, iOS. follow the <a href=\"\">installation guides</a> for different systems.</p>"
+            },
+            "step2": {
+                "title": "Step 2: Add media and start share.",
+                "description": "<p>1. <strong>Add media</strong>.Add the videos/audios you want to watch to Lanplayer. You can either directly import a folder or select multiple videos/audios to add. </p><p>2. <strong>Start sharing</strong>. Click the \"<strong>Start sharing</strong>\" button.</p>"
+            },
+            "step3": {
+                "title": "Step 3: Watch video on you phone.",
+                "description": "<p><font color=\"red\">Note:</font> <strong>Make sure your device in the same LAN</strong>.</p><p>After clicking the \"LAN\" button at the bottom of the mobile app, the app will automatically start searching for devices within the local area network (LAN) that have shared video resources. Users can view the list of detected devices and click on any device to access and watch the videos shared on that device.</p>"
+            },
+            "step4": {
+                "title": "Other options: Watch video on web browser.",
+                "description": "<p><strong>1.</strong> On the device sharing the video, find the \"qrcode\" icon at the bottom of the app and click it to display the QR code.</p><p><strong>2.</strong>Open a browser, such as Firefox or Chrome, on your phone, scan the QR code, and you will be able to instantly access and watch the video.</p><p><font color=\"red\">Note:</font> <strong>Some type of vides format are not supported on web,you can play use app as the step 3.</strong>.</p>"
+            }
+        }
+    },
+    "faq": {
+        "title": "Frequently asked question",
+        "serial_number": {
+            "question": "Do I need to purchase a separate serial number for each device?",
+            "answer": "You only need to buy one to register all your devices, and you can check the specific number of supported devices on the pricing page."
+        },
+        "video_formats": {
+            "question": "Why can't the web browser support all video formats?",
+            "answer": "The HTML5 standard supports only common media formats and codecs. MP4 is the most widely supported format by browsers, and most videos today are in this format."
+        },
+        "free_trial": {
+            "question": "Is it free to use?",
+            "answer": "You can try it for free for 7 days. After that, a purchase is required, but don't worry, the price is very affordable, and future updates are provided for free."
+        },
+        "installation": {
+            "question": "Do I need to install the software on all devices?",
+            "answer": "Only the device sharing the videos needs to install the software. Other devices can watch via their built-in browser without any installation."
+        },
+        "security": {
+            "question": "How secure is it?",
+            "answer": "The software allows you to set an Access Password, ensuring your privacy is protected."
+        },
+        "quality": {
+            "question": "What is the video quality like?",
+            "answer": "We guarantee the playback quality will be the same as the original video, with no reduction in output quality."
+        },
+        "video_size": {
+            "question": "What size videos can it play?",
+            "answer": "Playing 1080p and 4K videos in a local area network is generally not an issue."
+        }
+    },
+    "download": {
+        "title": "Download",
+        "description": "Download the Lanplayer for Windows, macOS, Linux, Android, and iOS.",
+        "sectionTitle": "Select the system to be installed",
+        "installation": {
+            "title": "Installtion instructions",
+            "windows": {
+                "title": "Windows",
+                "description": "Windows has two distributions, one is a portable version, and the other is an installer version.",
+                "installer": "1.Installer version. Download the .exe file, and the installation process is the same as other software.",
+                "portable": "2.Portable version. This version does not need to be installed, just unzip it and run it."
+            },
+            "android": {
+                "title": "Android",
+                "description": "The Android version provides a .apk file, which can be downloaded and installed directly, and supports all CPU architectures."
+            },
+            "macos": {
+                "title": "macOS",
+                "description": "The Macos version provides a .dmg file,Download the file ,drag the app to the Applications folder to install it",
+                "tip": "Tip: if install failed,open Terminal and run the command like a real hacker",
+                "command": "sudo xattr -rd com.apple.quarantine /Applications/LanPlayer.app"
+            },
+            "linux": {
+                "title": "Linux",
+                "description": "The Linux version provides a simple .zip file, which can be downloaded and unzipped.Before running should install mvp: <code>sudo apt install libmpv-dev mpv</code>"
+            }
+        },
+        "faq": {
+            "title": "Frequently asked question",
+            "installation": {
+                "question": "Do I need to install the software on all devices?",
+                "answer": "Only the device sharing the media needs to install the software. Other devices can watch via their built-in browser without any installation."
+            }
+        }
+    },
+    "pricing": {
+        "title": "Pricing",
+        "description": "Big cheap for everyone.",
+        "h1title": "Flexible and affordable pricing for you",
+        "plans": {
+            "free": {
+                "title": "free",
+                "price": "$0",
+                "period": "/week",
+                "benefits": [
+                    "7 days trial",
+                    "No limit"
+                ]
+            },
+            "yearly": {
+                "title": "1 year",
+                "period": "/1 year",
+                "benefits": [
+                    "1 serial number",
+                    "register 10 devices",
+                    "No limit"
+                ]
+            },
+            "threeYear": {
+                "title": "3 year",
+                "period": "/3 year",
+                "benefits": [
+                    "1 serial number",
+                    "register 30 devices",
+                    "No limit"
+                ]
+            },
+            "permanent": {
+                "title": "Permanent",
+                "period": "/Permanent",
+                "benefits": [
+                    "1 serial number",
+                    "register 100 devices",
+                    "No limit"
+                ]
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Have feedback for us? you can reach us anytime by email or github issues."
+    }
+}

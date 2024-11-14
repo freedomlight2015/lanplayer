@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'next-i18next';
 import styled from 'styled-components';
 import { Environments, initializePaddle, Paddle } from '@paddle/paddle-js';
 import AutofitGrid from 'components/AutofitGrid';
@@ -6,7 +7,32 @@ import PricingCard from 'components/PricingCard';
 import SectionTitle from 'components/SectionTitle';
 
 export default function PricingTablesSection() {
+  const { t } = useTranslation('common');
   const [paddle, setPaddle] = useState<Paddle | null>(null);
+
+  const freeBenefits = [
+    t('pricing.plans.free.benefits.0'),
+    t('pricing.plans.free.benefits.1')
+  ];
+
+  const yearlyBenefits = [
+    t('pricing.plans.yearly.benefits.0'),
+    t('pricing.plans.yearly.benefits.1'),
+    t('pricing.plans.yearly.benefits.2')
+  ];
+
+  const threeYearBenefits = [
+    t('pricing.plans.threeYear.benefits.0'),
+    t('pricing.plans.threeYear.benefits.1'),
+    t('pricing.plans.threeYear.benefits.2')
+  ];
+
+  const permanentBenefits = [
+    t('pricing.plans.permanent.benefits.0'),
+    t('pricing.plans.permanent.benefits.1'),
+    t('pricing.plans.permanent.benefits.2')
+  ];
+
   useEffect(() => {
     const initPaddle = async () => {
       const paddleInstance = await initializePaddle({
@@ -40,40 +66,40 @@ export default function PricingTablesSection() {
 
   return (
     <Wrapper>
-      <SectionTitle>Flexible and affordable pricing for you</SectionTitle>
+      <SectionTitle>{t('pricing.h1title')}</SectionTitle>
       <AutofitGrid>
         <PricingCard
-          title="free"
-          benefits={['7 days trial','No limit']}
+          title={t('pricing.plans.free.title')}
+          benefits={freeBenefits}
           paddle={paddle}
           priceid=''
         >
-          $0<span>/week</span>
+          {t('pricing.plans.free.price')}<span>{t('pricing.plans.free.period')}</span>
         </PricingCard>
         <PricingCard
-          title="1 year"
-          benefits={['1 serial number', 'register 10 devices','No limit']}
+          title={t('pricing.plans.yearly.title')}
+          benefits={yearlyBenefits}
           isOutlined
           paddle={paddle}
           priceid='pri_01jbg68y4c55th9pgctqba3dc5'
         >
-          $10<span>/1 year</span>
+          $10<span>{t('pricing.plans.yearly.period')}</span>
         </PricingCard>
         <PricingCard
-          title="3 year"
-          benefits={['1 serial number', 'register 30 devices','No limit']}
+           title={t('pricing.plans.threeYear.title')}
+           benefits={threeYearBenefits}
           paddle={paddle}
           priceid='pri_01jbgr6kmb9neh3bmaktp3f4h3'
         >
-          $20<span>/3 year</span>
+          $20<span>{t('pricing.plans.threeYear.period')}</span>
         </PricingCard>
         <PricingCard
-          title="Permanent"
-          benefits={['1 serial number', 'register 100 devices','No limit']}
+          title={t('pricing.plans.permanent.title')}
+          benefits={permanentBenefits}
           paddle={paddle}
           priceid='pri_01jbgr7gskp89m4ahbs5qa62pb'
         >
-          $30<span>/Permanent</span>
+          $30<span>{t('pricing.plans.permanent.period')}</span>
         </PricingCard>
       </AutofitGrid>
 

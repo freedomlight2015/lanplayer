@@ -1,0 +1,190 @@
+{
+    "meta": {
+        "title": "LanPlayer - Máy Chủ Đa Phương Tiện Gia Đình Đơn Giản",
+        "keywords": "LanPlayer, Máy chủ đa phương tiện gia đình, Máy chủ phim gia đình, Chia sẻ video LAN, Trình phát đa phương tiện LAN, Ứng dụng chia sẻ đa phương tiện LAN, Máy chủ video cục bộ",
+        "description": "LanPlayer là phần mềm mạnh mẽ được thiết kế để chia sẻ và phát video/âm thanh một cách mượt mà qua mạng cục bộ (LAN). Nó hỗ trợ hầu hết các định dạng video/âm thanh phổ biến trên hầu hết các thiết bị."
+    },
+    "navbar": {
+        "download": "Tải xuống",
+        "pricing": "Giá cả",
+        "contact": "Liên hệ"
+    },
+    "hero": {
+        "title": "Máy Chủ Đa Phương Tiện Gia Đình Đơn Giản",
+        "description": "LanPlayer là phần mềm mạnh mẽ được thiết kế để chia sẻ và phát video/âm thanh một cách mượt mà qua mạng cục bộ (LAN). Nó hỗ trợ hầu hết các định dạng video/âm thanh phổ biến trên hầu hết các thiết bị.",
+        "downloadButton": "Tải xuống"
+    },
+    "features": "Tính năng",
+    "mediaShare": {
+        "title": "Chia sẻ và phát đa phương tiện trong LAN",
+        "description": "Dễ dàng chia sẻ và phát trực tuyến video/âm thanh giữa nhiều thiết bị trong mạng cục bộ của bạn. Hoàn hảo cho gia đình, văn phòng hoặc bất kỳ môi trường LAN nào.",
+        "pcToPhone": "Chia sẻ từ PC đến điện thoại",
+        "phoneToPC": "Chia sẻ từ điện thoại đến PC"
+    },
+    "multiDevice": {
+        "title": "Hỗ trợ nhiều thiết bị",
+        "description": "Dễ dàng chia sẻ và phát video/phim trong mạng cục bộ (LAN) bằng Lanplayer, nó hỗ trợ hầu hết các thiết bị.",
+        "devices": "Thiết bị:",
+        "devicesList": "Windows, Android, Linux, MacOS, iOS",
+        "videoFormat": "Định dạng video:",
+        "videoFormatList": "MP4, AVI, MKV, FLV, WMV, RMVB, MOV…",
+        "audioFormat": "Định dạng âm thanh:",
+        "audioFormatList": "MP3, WAV, AAC, FLAC, M4A, WMA…"
+    },
+    "easyToUse": {
+        "title": "Dễ dàng sử dụng",
+        "description": "Nhiều lúc, chúng ta tải phim từ internet về máy tính và muốn xem trên điện thoại khi nằm trên giường. Tuy nhiên, việc này quá phiền phức và dung lượng điện thoại không đủ. Lanplayer có thể giúp bạn.",
+        "features": {
+            "import": "Quản lý dễ dàng với nhập và xóa video hàng loạt.",
+            "history": "Hỗ trợ lịch sử phát, tự động tiếp tục từ vị trí phát cuối cùng.",
+            "password": "Với Mật khẩu Truy cập, bạn có thể giữ an toàn cho các tệp video của mình.",
+            "language": "Hỗ trợ đa ngôn ngữ để thao tác dễ dàng hơn."
+        }
+    },
+    "webBrowser": {
+        "title": "Xem trên trình duyệt web",
+        "description": "Chúng tôi cũng hỗ trợ xem trực tiếp trên trình duyệt web mà không cần tải phần mềm về điện thoại (lưu ý: trang web chỉ hỗ trợ phát các định dạng video phổ biến như MP4, MP3, nhưng điều đó đã đủ cho nhiều video)."
+    },
+    "cta": {
+        "title": "Vậy, nếu bạn quan tâm đến LanPlayer, hãy bắt đầu sử dụng ngay!",
+        "downloadButton": "Tải xuống miễn phí"
+    },
+    "useSteps": {
+        "overTitle": "Các bước sử dụng",
+        "sectionTitle": "Các bước sử dụng là gì?",
+        "tabs": {
+            "step1": {
+                "title": "Bước 1: Tải Lanplayer về máy tính hoặc điện thoại của bạn.",
+                "description": "<p>Phần mềm Lanplayer hỗ trợ hầu hết các thiết bị, Windows, Android, Linux, MacOS, iOS. Làm theo <a href=\"\">hướng dẫn cài đặt</a> cho các hệ thống khác nhau.</p>"
+            },
+            "step2": {
+                "title": "Bước 2: Thêm phương tiện và bắt đầu chia sẻ.",
+                "description": "<p>1. <strong>Thêm phương tiện</strong>. Thêm video/âm thanh bạn muốn xem vào Lanplayer. Bạn có thể nhập trực tiếp một thư mục hoặc chọn nhiều video/âm thanh để thêm.</p><p>2. <strong>Bắt đầu chia sẻ</strong>. Nhấp vào nút \"<strong>Bắt đầu chia sẻ</strong>\".</p>"
+            },
+            "step3": {
+                "title": "Bước 3: Xem video trên điện thoại của bạn.",
+                "description": "<p><font color=\"red\">Lưu ý:</font> <strong>Đảm bảo thiết bị của bạn trong cùng mạng LAN</strong>.</p><p>Sau khi nhấp vào nút \"LAN\" ở dưới cùng của ứng dụng di động, ứng dụng sẽ tự động bắt đầu tìm kiếm các thiết bị trong mạng cục bộ (LAN) đã chia sẻ tài nguyên video. Người dùng có thể xem danh sách các thiết bị được phát hiện và nhấp vào bất kỳ thiết bị nào để truy cập và xem video được chia sẻ trên thiết bị đó.</p>"
+            },
+            "step4": {
+                "title": "Tùy chọn khác: Xem video trên trình duyệt web.",
+                "description": "<p><strong>1.</strong> Trên thiết bị chia sẻ video, tìm biểu tượng \"mã QR\" ở dưới cùng của ứng dụng và nhấp vào để hiển thị mã QR.</p><p><strong>2.</strong>Mở trình duyệt, như Firefox hoặc Chrome, trên điện thoại của bạn, quét mã QR và bạn sẽ có thể truy cập và xem video ngay lập tức.</p><p><font color=\"red\">Lưu ý:</font> <strong>Một số định dạng video không được hỗ trợ trên web, bạn có thể phát bằng ứng dụng như bước 3</strong>.</p>"
+            }
+        }
+    },
+    "faq": {
+        "title": "Câu hỏi thường gặp",
+        "serial_number": {
+            "question": "Tôi có cần mua số sê-ri riêng cho mỗi thiết bị không?",
+            "answer": "Bạn chỉ cần mua một cái để đăng ký tất cả thiết bị của mình, và bạn có thể kiểm tra số lượng thiết bị được hỗ trợ cụ thể trên trang giá."
+        },
+        "video_formats": {
+            "question": "Tại sao trình duyệt web không thể hỗ trợ tất cả các định dạng video?",
+            "answer": "Tiêu chuẩn HTML5 chỉ hỗ trợ các định dạng và codec phương tiện phổ biến. MP4 là định dạng được hỗ trợ rộng rãi nhất bởi các trình duyệt, và hầu hết các video ngày nay đều ở định dạng này."
+        },
+        "free_trial": {
+            "question": "Có miễn phí để sử dụng không?",
+            "answer": "Bạn có thể dùng thử miễn phí trong 7 ngày. Sau đó cần phải mua, nhưng đừng lo, giá rất phải chăng và các bản cập nhật trong tương lai được cung cấp miễn phí."
+        },
+        "installation": {
+            "question": "Tôi có cần cài đặt phần mềm trên tất cả các thiết bị không?",
+            "answer": "Chỉ thiết bị chia sẻ video cần cài đặt phần mềm. Các thiết bị khác có thể xem qua trình duyệt tích hợp mà không cần cài đặt."
+        },
+        "security": {
+            "question": "Nó an toàn như thế nào?",
+            "answer": "Phần mềm cho phép bạn đặt Mật khẩu Truy cập, đảm bảo quyền riêng tư của bạn được bảo vệ."
+        },
+        "quality": {
+            "question": "Chất lượng video như thế nào?",
+            "answer": "Chúng tôi đảm bảo chất lượng phát sẽ giống như video gốc, không giảm chất lượng đầu ra."
+        },
+        "video_size": {
+            "question": "Nó có thể phát video kích thước nào?",
+            "answer": "Phát video 1080p và 4K trong mạng cục bộ thường không phải là vấn đề."
+        }
+    },
+    "download": {
+        "title": "Tải xuống",
+        "description": "Tải xuống Lanplayer cho Windows, macOS, Linux, Android và iOS.",
+        "sectionTitle": "Chọn hệ thống để cài đặt",
+        "installation": {
+            "title": "Hướng dẫn cài đặt",
+            "windows": {
+                "title": "Windows",
+                "description": "Windows có hai bản phân phối, một là phiên bản di động và một là phiên bản cài đặt.",
+                "installer": "1. Phiên bản cài đặt. Tải xuống tệp .exe, và quy trình cài đặt giống như các phần mềm khác.",
+                "portable": "2. Phiên bản di động. Phiên bản này không cần cài đặt, chỉ cần giải nén và chạy."
+            },
+            "android": {
+                "title": "Android",
+                "description": "Phiên bản Android cung cấp tệp .apk, có thể tải xuống và cài đặt trực tiếp, và hỗ trợ tất cả kiến trúc CPU."
+            },
+            "macos": {
+                "title": "macOS",
+                "description": "Phiên bản MacOS cung cấp tệp .dmg, Tải xuống tệp, kéo ứng dụng vào thư mục Applications để cài đặt",
+                "tip": "Mẹo: nếu cài đặt thất bại, mở Terminal và chạy lệnh như một hacker thực thụ",
+                "command": "sudo xattr -rd com.apple.quarantine /Applications/LanPlayer.app"
+            },
+            "linux": {
+                "title": "Linux",
+                "description": "Phiên bản Linux cung cấp tệp .zip đơn giản, có thể tải xuống và giải nén. Trước khi chạy nên cài đặt mvp: <code>sudo apt install libmpv-dev mpv</code>"
+            }
+        },
+        "faq": {
+            "title": "Câu hỏi thường gặp",
+            "installation": {
+                "question": "Tôi có cần cài đặt phần mềm trên tất cả các thiết bị không?",
+                "answer": "Chỉ thiết bị chia sẻ phương tiện cần cài đặt phần mềm. Các thiết bị khác có thể xem qua trình duyệt tích hợp mà không cần cài đặt."
+            }
+        }
+    },
+    "pricing": {
+        "title": "Giá cả",
+        "description": "Giá rẻ cho mọi người.",
+        "h1title": "Giá cả linh hoạt và phải chăng cho bạn",
+        "plans": {
+            "free": {
+                "title": "miễn phí",
+                "price": "0₫",
+                "period": "/tuần",
+                "benefits": [
+                    "Dùng thử 7 ngày",
+                    "Không giới hạn"
+                ]
+            },
+            "yearly": {
+                "title": "1 năm",
+                "price": "300.000₫",
+                "period": "/1 năm",
+                "benefits": [
+                    "1 số sê-ri",
+                    "đăng ký 10 thiết bị",
+                    "Không giới hạn"
+                ]
+            },
+            "threeYear": {
+                "title": "3 năm",
+                "price": "600.000₫",
+                "period": "/3 năm",
+                "benefits": [
+                    "1 số sê-ri",
+                    "đăng ký 30 thiết bị",
+                    "Không giới hạn"
+                ]
+            },
+            "permanent": {
+                "title": "Vĩnh viễn",
+                "price": "900.000₫",
+                "period": "/Vĩnh viễn",
+                "benefits": [
+                    "1 số sê-ri",
+                    "đăng ký 100 thiết bị",
+                    "Không giới hạn"
+                ]
+            }
+        }
+    },
+    "contact": {
+        "title": "Liên hệ",
+        "description": "Có phản hồi cho chúng tôi? bạn có thể liên hệ với chúng tôi bất cứ lúc nào qua email hoặc GitHub issues."
+    }
+}

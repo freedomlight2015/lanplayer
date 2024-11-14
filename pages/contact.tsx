@@ -1,4 +1,7 @@
 import styled from 'styled-components';
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { GetStaticProps } from 'next';
 import Page from 'components/Page';
 import NextImage from 'next/image';
 import { media } from 'utils/media';
@@ -6,8 +9,9 @@ import FormSection from 'views/ContactPage/FormSection';
 import InformationSection from 'views/ContactPage/InformationSection';
 
 export default function ContactPage() {
+  const { t } = useTranslation('common');
   return (
-    <Page title="Contact" description="Have feedback for us? you can reach us anytime by email or github issues.">
+    <Page title={t('contact.title')} description={t('contact.description')}>
       <ContactContainer>
         <InformationSection />
       </ContactContainer>
@@ -21,3 +25,10 @@ const ContactContainer = styled.div`
     flex-direction: column;
   }
 `;
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale ?? 'en', ['common'])),
+    },
+  };
+};

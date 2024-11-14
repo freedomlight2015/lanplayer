@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import NextImage from 'next/image';
+import LanguageSwitcher from '../components/LanguageSwitcher'
 import { useRouter } from 'next/router';
 import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
@@ -78,6 +79,7 @@ export default function Navbar({ items }: NavbarProps) {
             <NavItem key={singleItem.href} {...singleItem} />
           ))}
         </NavItemList>
+        <LanguageSwitcher />
         <ColorSwitcherContainer>
           <ColorSwitcher />
         </ColorSwitcherContainer>

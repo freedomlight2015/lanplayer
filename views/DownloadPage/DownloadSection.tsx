@@ -2,13 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
 import DownloadCard from 'components/DownloadCard';
+import { useTranslation } from 'next-i18next';
 import SectionTitle from 'components/SectionTitle';
 import Accordion from 'components/Accordion';
 
 export default function PricingTablesSection() {
+  const { t } = useTranslation('common');
   return (
     <Wrapper>
-      <SectionTitle>Select the system to be installed</SectionTitle>
+      <SectionTitle>{t('download.sectionTitle')}</SectionTitle>
       <AutofitGrid>
         <DownloadCard
           title="Windows"
@@ -16,11 +18,11 @@ export default function PricingTablesSection() {
           btns={[
             {
               label: 'Download .Exe',
-              url: "https://github.com/vercel/next.js/releases/tag/11.0.0",
+              url: "https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/Lanplayer-v1.0.0-windows.exe",
             },
             {
               label: 'Protable .zip',
-              url: "https://github.com/vercel/next.js/releases/tag/11.0.0",
+              url: "https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/LanPlayer-v1.0.0-windows-protable.zip",
             },
           ]}
         >
@@ -33,7 +35,7 @@ export default function PricingTablesSection() {
           btns={[
             {
               label: 'Download .Apk',
-              url: "https://github.com/vercel/next.js/releases/tag/11.0.0",
+              url: "https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/Lanplayer-v1.0.0-android.apk",
             },
           ]}
         >
@@ -44,7 +46,7 @@ export default function PricingTablesSection() {
           btns={[
             {
               label: 'Download .Dmg',
-              url: "https://github.com/vercel/next.js/releases/tag/11.0.0",
+              url: "https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/lanplayer-v1.0.0-macos.dmg",
             },
           ]}
         >
@@ -59,12 +61,8 @@ export default function PricingTablesSection() {
           ]}
           btns={[
             {
-              label: 'Download .deb',
-              url: "https://github.com/vercel/next.js/releases/tag/11.0.0",
-            },
-            {
-                label: 'Protable .tar.gz',
-                url: "https://github.com/vercel/next.js/releases/tag/11.0.0",
+                label: 'Protable .zip',
+                url: "https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/lanplayer-v1.0.0-linux-protable.zip",
               },
           ]}
         >
@@ -73,14 +71,9 @@ export default function PricingTablesSection() {
         <DownloadCard
           title="Ios"
           requirements={[
-            'Ios 10 or higher',
+            'Not supported now',
           ]}
-          btns={[
-            {
-              label: 'Download .ipa',
-              url: "https://github.com/vercel/next.js/releases/tag/11.0.0",
-            },
-          ]}
+          btns={[]}
         >
         </DownloadCard>
       </AutofitGrid>

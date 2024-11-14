@@ -1,0 +1,190 @@
+{
+    "meta": {
+        "title": "LanPlayer - Serveur multimédia domestique simple",
+        "keywords": "LanPlayer, Serveur multimédia domestique, Serveur de films domestique, Partage vidéo LAN, Lecteur multimédia LAN, Application de partage multimédia LAN, Serveur vidéo local",
+        "description": "LanPlayer est un logiciel puissant conçu pour le partage et la lecture fluide de vidéos/audio sur les réseaux locaux (LAN). Il prend en charge presque tous les formats vidéo/audio populaires sur presque tous les appareils."
+    },
+    "navbar": {
+        "download": "Télécharger",
+        "pricing": "Tarifs",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Serveur multimédia domestique simple",
+        "description": "LanPlayer est un logiciel puissant conçu pour le partage et la lecture fluide de vidéos/audio sur les réseaux locaux (LAN). Il prend en charge presque tous les formats vidéo/audio populaires sur presque tous les appareils.",
+        "downloadButton": "Télécharger"
+    },
+    "features": "Fonctionnalités",
+    "mediaShare": {
+        "title": "Partage et lecture multimédia en LAN",
+        "description": "Partagez et diffusez facilement des vidéos/audios entre plusieurs appareils au sein de votre réseau local. Parfait pour la maison, le bureau ou tout environnement LAN.",
+        "pcToPhone": "PC vers téléphone",
+        "phoneToPC": "Téléphone vers PC"
+    },
+    "multiDevice": {
+        "title": "Compatible avec plusieurs appareils",
+        "description": "Partagez et lisez facilement des vidéos/films dans le réseau local (LAN) avec Lanplayer, il prend en charge presque tous les appareils.",
+        "devices": "Appareils :",
+        "devicesList": "Windows, Android, Linux, MacOS, iOS",
+        "videoFormat": "Format vidéo :",
+        "videoFormatList": "MP4, AVI, MKV, FLV, WMV, RMVB, MOV…",
+        "audioFormat": "Format audio :",
+        "audioFormatList": "MP3, WAV, AAC, FLAC, M4A, WMA…"
+    },
+    "easyToUse": {
+        "title": "Facile à utiliser",
+        "description": "Souvent, nous téléchargeons des films depuis Internet sur nos ordinateurs et souhaitons les regarder sur nos téléphones en étant allongés. Cependant, c'est trop fastidieux et l'espace de stockage du téléphone n'est pas suffisant. Lanplayer peut vous aider.",
+        "features": {
+            "import": "Gestion facile avec importation et suppression en masse de vidéos.",
+            "history": "Prend en charge l'historique de lecture, reprend automatiquement à la dernière position lue.",
+            "password": "Avec le mot de passe d'accès, vous pouvez sécuriser vos fichiers vidéo.",
+            "language": "Support multilingue pour une utilisation plus facile."
+        }
+    },
+    "webBrowser": {
+        "title": "Regarder sur navigateur web",
+        "description": "Nous prenons également en charge le visionnage directement sur le navigateur web sans avoir besoin de télécharger de logiciel sur le téléphone (attention : la page web ne prend en charge que la lecture des formats vidéo courants comme MP4, MP3, mais cela suffit pour de nombreuses vidéos)."
+    },
+    "cta": {
+        "title": "Alors, si LanPlayer vous intéresse, commencez à l'utiliser maintenant !",
+        "downloadButton": "Télécharger gratuitement"
+    },
+    "useSteps": {
+        "overTitle": "Étapes d'utilisation",
+        "sectionTitle": "Quelles sont les étapes d'utilisation ?",
+        "tabs": {
+            "step1": {
+                "title": "Étape 1 : Téléchargez Lanplayer sur votre ordinateur ou téléphone.",
+                "description": "<p>Le logiciel Lanplayer prend en charge presque tous les appareils, Windows, Android, Linux, MacOS, iOS. Suivez les <a href=\"\">guides d'installation</a> pour les différents systèmes.</p>"
+            },
+            "step2": {
+                "title": "Étape 2 : Ajoutez des médias et commencez le partage.",
+                "description": "<p>1. <strong>Ajoutez des médias</strong>. Ajoutez les vidéos/audios que vous souhaitez regarder à Lanplayer. Vous pouvez soit importer directement un dossier, soit sélectionner plusieurs vidéos/audios à ajouter.</p><p>2. <strong>Commencez le partage</strong>. Cliquez sur le bouton \"<strong>Commencer le partage</strong>\".</p>"
+            },
+            "step3": {
+                "title": "Étape 3 : Regardez la vidéo sur votre téléphone.",
+                "description": "<p><font color=\"red\">Note :</font> <strong>Assurez-vous que votre appareil est sur le même réseau LAN</strong>.</p><p>Après avoir cliqué sur le bouton \"LAN\" en bas de l'application mobile, l'application commencera automatiquement à rechercher les appareils du réseau local (LAN) qui partagent des ressources vidéo. Les utilisateurs peuvent voir la liste des appareils détectés et cliquer sur n'importe quel appareil pour accéder et regarder les vidéos partagées sur cet appareil.</p>"
+            },
+            "step4": {
+                "title": "Autres options : Regarder la vidéo sur navigateur web.",
+                "description": "<p><strong>1.</strong> Sur l'appareil partageant la vidéo, trouvez l'icône \"qrcode\" en bas de l'application et cliquez dessus pour afficher le QR code.</p><p><strong>2.</strong>Ouvrez un navigateur, comme Firefox ou Chrome, sur votre téléphone, scannez le QR code, et vous pourrez instantanément accéder et regarder la vidéo.</p><p><font color=\"red\">Note :</font> <strong>Certains formats vidéo ne sont pas pris en charge sur le web, vous pouvez les lire en utilisant l'application comme dans l'étape 3</strong>.</p>"
+            }
+        }
+    },
+    "faq": {
+        "title": "Questions fréquemment posées",
+        "serial_number": {
+            "question": "Dois-je acheter un numéro de série distinct pour chaque appareil ?",
+            "answer": "Vous n'avez besoin d'en acheter qu'un seul pour enregistrer tous vos appareils, et vous pouvez vérifier le nombre spécifique d'appareils pris en charge sur la page des tarifs."
+        },
+        "video_formats": {
+            "question": "Pourquoi le navigateur web ne prend-il pas en charge tous les formats vidéo ?",
+            "answer": "La norme HTML5 ne prend en charge que les formats et codecs multimédias courants. Le MP4 est le format le plus largement pris en charge par les navigateurs, et la plupart des vidéos aujourd'hui sont dans ce format."
+        },
+        "free_trial": {
+            "question": "Est-ce gratuit à utiliser ?",
+            "answer": "Vous pouvez l'essayer gratuitement pendant 7 jours. Après cela, un achat est nécessaire, mais ne vous inquiétez pas, le prix est très abordable et les mises à jour futures sont fournies gratuitement."
+        },
+        "installation": {
+            "question": "Dois-je installer le logiciel sur tous les appareils ?",
+            "answer": "Seul l'appareil partageant les vidéos doit installer le logiciel. Les autres appareils peuvent regarder via leur navigateur intégré sans aucune installation."
+        },
+        "security": {
+            "question": "Est-ce sécurisé ?",
+            "answer": "Le logiciel vous permet de définir un mot de passe d'accès, garantissant la protection de votre vie privée."
+        },
+        "quality": {
+            "question": "Quelle est la qualité vidéo ?",
+            "answer": "Nous garantissons que la qualité de lecture sera identique à celle de la vidéo originale, sans réduction de la qualité de sortie."
+        },
+        "video_size": {
+            "question": "Quelle taille de vidéos peut-il lire ?",
+            "answer": "La lecture de vidéos 1080p et 4K sur un réseau local ne pose généralement pas de problème."
+        }
+    },
+    "download": {
+        "title": "Télécharger",
+        "description": "Téléchargez Lanplayer pour Windows, macOS, Linux, Android et iOS.",
+        "sectionTitle": "Sélectionnez le système à installer",
+        "installation": {
+            "title": "Instructions d'installation",
+            "windows": {
+                "title": "Windows",
+                "description": "Windows dispose de deux distributions, une version portable et une version installable.",
+                "installer": "1. Version installable. Téléchargez le fichier .exe, et le processus d'installation est le même que pour les autres logiciels.",
+                "portable": "2. Version portable. Cette version n'a pas besoin d'être installée, il suffit de la décompresser et de l'exécuter."
+            },
+            "android": {
+                "title": "Android",
+                "description": "La version Android fournit un fichier .apk, qui peut être téléchargé et installé directement, et prend en charge toutes les architectures CPU."
+            },
+            "macos": {
+                "title": "macOS",
+                "description": "La version MacOS fournit un fichier .dmg, téléchargez le fichier, faites glisser l'application dans le dossier Applications pour l'installer",
+                "tip": "Astuce : si l'installation échoue, ouvrez le Terminal et exécutez la commande comme un vrai hacker",
+                "command": "sudo xattr -rd com.apple.quarantine /Applications/LanPlayer.app"
+            },
+            "linux": {
+                "title": "Linux",
+                "description": "La version Linux fournit un simple fichier .zip, qui peut être téléchargé et décompressé. Avant l'exécution, il faut installer mvp : <code>sudo apt install libmpv-dev mpv</code>"
+            }
+        },
+        "faq": {
+            "title": "Questions fréquemment posées",
+            "installation": {
+                "question": "Dois-je installer le logiciel sur tous les appareils ?",
+                "answer": "Seul l'appareil partageant les médias doit installer le logiciel. Les autres appareils peuvent regarder via leur navigateur intégré sans aucune installation."
+            }
+        }
+    },
+    "pricing": {
+        "title": "Tarifs",
+        "description": "Très économique pour tous.",
+        "h1title": "Tarification flexible et abordable pour vous",
+        "plans": {
+            "free": {
+                "title": "gratuit",
+                "price": "0€",
+                "period": "/semaine",
+                "benefits": [
+                    "7 jours d'essai",
+                    "Sans limite"
+                ]
+            },
+            "yearly": {
+                "title": "1 an",
+                "price": "10€",
+                "period": "/1 an",
+                "benefits": [
+                    "1 numéro de série",
+                    "enregistrer 10 appareils",
+                    "Sans limite"
+                ]
+            },
+            "threeYear": {
+                "title": "3 ans",
+                "price": "20€",
+                "period": "/3 ans",
+                "benefits": [
+                    "1 numéro de série",
+                    "enregistrer 30 appareils",
+                    "Sans limite"
+                ]
+            },
+            "permanent": {
+                "title": "Permanent",
+                "price": "30€",
+                "period": "/Permanent",
+                "benefits": [
+                    "1 numéro de série",
+                    "enregistrer 100 appareils",
+                    "Sans limite"
+                ]
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Vous avez des commentaires pour nous ? Vous pouvez nous contacter à tout moment par email ou via les issues GitHub."
+    }
+}

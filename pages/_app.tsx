@@ -4,6 +4,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
 import { AppProps } from 'next/dist/shared/lib/router/router';
+import { appWithTranslation, useTranslation } from 'next-i18next'
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import { ColorModeScript } from 'nextjs-color-mode';
@@ -19,14 +20,16 @@ import WaveCta from 'components/WaveCta';
 import { NewsletterModalContextProvider, useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { NavItems } from 'types';
 
-const navItems: NavItems = [
-  { title: 'Lanplayer', href: '/' },
-  { title: 'Download', href: '/download' },
-  { title: 'Pricing', href: '/pricing' },
-  { title: 'Contact', href: '/contact' },
-];
+
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const { t } = useTranslation('common');
+  const navItems: NavItems = [
+    { title: 'Lanplayer', href: '/' },
+    { title: t('navbar.download'), href: '/download' },
+    { title: t('navbar.pricing'), href: '/pricing' },
+    { title: t('navbar.contact'), href: '/contact' }
+  ]
   return (
     <>
       <Head>
@@ -57,7 +60,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ColorModeScript/>;
       <GlobalStyle />
 
-      <Providers>
+      <Providers navItems={navItems}>
         <Modals />
         <Navbar items={navItems} />
         <Component {...pageProps} />
@@ -67,7 +70,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-function Providers<T>({ children }: PropsWithChildren<T>) {
+function Providers<T>({ children, navItems }: PropsWithChildren<T> & { navItems: NavItems }) {
   return (
     <NewsletterModalContextProvider>
       <NavigationDrawer items={navItems}>{children}</NavigationDrawer>
@@ -83,4 +86,4 @@ function Modals() {
   return <NewsletterModal onClose={() => setIsModalOpened(false)} />;
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);

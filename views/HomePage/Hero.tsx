@@ -1,5 +1,6 @@
 import NextLink from 'next/link';
 import NextImage from 'next/image';
+import { useTranslation } from 'next-i18next'; 
 import styled from 'styled-components';
 import Button from 'components/Button';
 import ButtonGroup from 'components/ButtonGroup';
@@ -11,18 +12,18 @@ import { media } from 'utils/media';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
-
+  const { t } = useTranslation('common');
   return (
     <HeroWrapper>
       <Contents>
-        <Heading>Simple Home media server</Heading>
+        <Heading>{t('hero.title')}</Heading>
         <Description>
-        LanPlayer is a powerful software designed for seamless video/audio sharing and playback across local area networks (LAN).It supports almost all popular video/audio formats on almost all devices.
+        {t('hero.description')}
         </Description>
         <CustomButtonGroup>
         <NextLink href="/download" passHref>
           <Button>
-            Download
+            {t('hero.downloadButton')}
           </Button>
           </NextLink>
         </CustomButtonGroup>

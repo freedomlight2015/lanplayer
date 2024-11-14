@@ -1,4 +1,6 @@
 import { InferGetStaticPropsType } from 'next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 import Head from 'next/head';
 import styled from 'styled-components';
 import BasicSection from 'components/BasicSection';
@@ -15,54 +17,54 @@ import SectionTitle from 'components/SectionTitle';
 import FaqSection from 'views/PricingPage/FaqSection';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
-
+  const { t } = useTranslation('common');
   return (
     <>
       <Head>
-        <title>{EnvVars.SITE_NAME}</title>
-        <meta name="keywords" content="LanPlayer, Home media server, Home movie server,LAN video sharing, LAN media player, LAN media sharing app, Local video server" />
+        <title>{t('meta.title')}</title>
+        <meta name="keywords" content={t('meta.keywords')} />
         <meta
           name="description"
-          content="LanPlayer is a powerful software designed for seamless video/audio sharing and playback across local area networks (LAN).It supports almost all popular video/audio formats on almost all devices."
+          content={t('meta.description')}
         />
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <SectionTitle>Features</SectionTitle>
-          <BasicSection imageUrl="/feature-1.png" title="Media share & play in LAN">
+          <SectionTitle>{t('features')}</SectionTitle>
+          <BasicSection imageUrl="/feature-1.png" title={t('mediaShare.title')}>
             <p>
-            Effortlessly share and stream videos/audios across multiple devices within your local network. Perfect for home, office, or any LAN environment.
-            <ul>
-              <li>PC share to phone</li>
-              <li>Phone share to pc</li>
-            </ul>
+              {t('mediaShare.description')}
+              <ul>
+                <li>{t('mediaShare.pcToPhone')}</li>
+                <li>{t('mediaShare.phoneToPC')}</li>
+              </ul>
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/support_all_device.svg" title="Support multiple devices" reversed>
+          <BasicSection imageUrl="/support_all_device.svg" title={t('multiDevice.title')} reversed>
             <p>
-            Easily share and play videos/movies within the local network (LAN) using Lanplayer , it supports almost all devices.
-            <ul>
-              <li>Devices:<strong>Windows,Android, Linux, MacOS, iOS</strong></li>
-              <li>Video formart:<strong>MP4, AVI, MKV, FLV, WMV, RMVB, MOV…</strong></li>
-              <li>Audio formart:<strong>MP3, WAV, AAC, FLAC, M4A, WMA…</strong></li>
-            </ul>
+              {t('multiDevice.description')}
+              <ul>
+                <li>{t('multiDevice.devices')}<strong>{t('multiDevice.devicesList')}</strong></li>
+                <li>{t('multiDevice.videoFormat')}<strong>{t('multiDevice.videoFormatList')}</strong></li>
+                <li>{t('multiDevice.audioFormat')}<strong>{t('multiDevice.audioFormatList')}</strong></li>
+              </ul>
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/watch_on_bed.png" title="Easy to use" >
+          <BasicSection imageUrl="/watch_on_bed.png" title={t('easyToUse.title')} >
             <p>
-            Many times, we download movies from the internet to our computers and want to watch them on our phones while lying in bed. However, it&apos;s too troublesome, and the phone&apos;s storage space isn&apos;t enough.The Lanplayer can help.
+              {t('easyToUse.description')}
             </p>
             <ul>
-              <li>Easy management with bulk video import and deletion.</li>
-              <li>Supports playback history, automatically resumes from the last played position.</li>
-              <li>With the Access Pwssword, you can keep your video files safe.</li>
-              <li>Multi-language support for easier operation.</li>
+              <li>{t('easyToUse.features.import')}</li>
+              <li>{t('easyToUse.features.history')}</li>
+              <li>{t('easyToUse.features.password')}</li>
+              <li>{t('easyToUse.features.language')}</li>
             </ul>
           </BasicSection>
-          <BasicSection imageUrl="/web-video-demo.png" title="Watch on webbrowser" reversed>
+          <BasicSection imageUrl="/web-video-demo.png" title={t('webBrowser.title')} reversed>
             <p>
-            We also support watching directly on the webbrowser without the need to download any software on the phone (attension: the webpage only supports playing common video formats like MP4、MP3, but that is sufficient for many videos).
+              {t('webBrowser.description')}
             </p>
           </BasicSection>
         </WhiteBackgroundContainer>
@@ -75,6 +77,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
     </>
   );
 }
+
 
 const HomepageWrapper = styled.div`
   & > :last-child {
@@ -102,9 +105,10 @@ const WhiteBackgroundContainer = styled.div`
   }
 `;
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }: { locale: string }) {
   return {
     props: {
+      ...(await serverSideTranslations(locale, ['common'])),
       posts: await getAllPosts(),
     },
   };

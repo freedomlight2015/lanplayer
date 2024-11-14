@@ -1,5 +1,6 @@
 import NextImage from 'next/image';
 import React, { useState } from 'react';
+import { useTranslation } from 'next-i18next';
 import styled from 'styled-components';
 import Collapse from 'components/Collapse';
 import Container from 'components/Container';
@@ -10,33 +11,29 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Step 1: Download the Lanplayer to your computer or phone.',
-    description:
-      '<p>Then lanplayer software support almost all devices, Windows, Android, Linux, MacOS, iOS. follow the <a href="">installation guides</a> for different systems.</p>',
+    titleKey: 'useSteps.tabs.step1.title',
+    descriptionKey: 'useSteps.tabs.step1.description',
     imageUrl: '/support_all_device.svg',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Step 2: Add media and start share.',
-    description:
-      '<p>1. <strong>Add media</strong>.Add the videos/audios you want to watch to Lanplayer. You can either directly import a folder or select multiple videos/audios to add. </p><p>2. <strong>Start sharing</strong>. Click the "<strong>Start sharing</strong>" button.</p>',
+    titleKey: 'useSteps.tabs.step2.title',
+    descriptionKey: 'useSteps.tabs.step2.description',
     imageUrl: '/add_video_to_lanplayer.gif',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
-    title: 'Step 3: Watch video on you phone.',
-    description:
-      '<p><font color="red">Note:</font> <strong>Make sure your device in the same LAN</strong>.</p><p>After clicking the "LAN" button at the bottom of the mobile app, the app will automatically start searching for devices within the local area network (LAN) that have shared video resources. Users can view the list of detected devices and click on any device to access and watch the videos shared on that device.</p>',
+    titleKey: 'useSteps.tabs.step3.title',
+    descriptionKey: 'useSteps.tabs.step3.description',
     imageUrl: '/app_video_demo.gif',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
   {
-    title: 'Other options: Watch video on web browser.',
-    description:
-      '<p><strong>1.</strong> On the device sharing the video, find the "qrcode" icon at the bottom of the app and click it to display the QR code.</p><p><strong>2.</strong>Open a browser, such as Firefox or Chrome, on your phone, scan the QR code, and you will be able to instantly access and watch the video.</p><p><font color="red">Note:</font> <strong>Some type of vides format are not supported on web,you can play use app as the step 3.</strong>.</p>',
+    titleKey: 'useSteps.tabs.step4.title',
+    descriptionKey: 'useSteps.tabs.step4.description',
     imageUrl: '/web_video_demo.gif',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
@@ -44,21 +41,22 @@ const TABS = [
 ];
 
 export default function FeaturesGallery() {
+  const { t } = useTranslation('common');
   const [currentTab, setCurrentTab] = useState(TABS[0]);
 
   const imagesMarkup = TABS.map((singleTab, idx) => {
-    const isActive = singleTab.title === currentTab.title;
+    const isActive = singleTab.titleKey === currentTab.titleKey;
     const isFirst = idx === 0;
 
     return (
-      <ImageContainer key={singleTab.title} isActive={isActive}>
-        <NextImage src={singleTab.imageUrl}  alt={singleTab.title} layout="fill" objectFit="contain" priority={isFirst} />
+      <ImageContainer key={singleTab.titleKey} isActive={isActive}>
+        <NextImage src={singleTab.imageUrl} alt={t(singleTab.titleKey)} layout="fill" objectFit="contain" priority={isFirst} />
       </ImageContainer>
     );
   });
 
   const tabsMarkup = TABS.map((singleTab, idx) => {
-    const isActive = singleTab.title === currentTab.title;
+    const isActive = singleTab.titleKey === currentTab.titleKey;
 
     return (
       <Tab isActive={isActive} key={idx} onClick={() => handleTabClick(idx)}>
@@ -66,17 +64,16 @@ export default function FeaturesGallery() {
           <CircleContainer>
             <ThreeLayersCircle baseColor={isActive ? 'transparent' : singleTab.baseColor} secondColor={singleTab.secondColor} />
           </CircleContainer>
-          <h4>{singleTab.title}</h4>
+          <h4>{t(singleTab.titleKey)}</h4>
         </TabTitleContainer>
         <Collapse isOpen={isActive} duration={300}>
           <TabContent>
-            <div dangerouslySetInnerHTML={{ __html: singleTab.description }}></div>
+            <div dangerouslySetInnerHTML={{ __html: t(singleTab.descriptionKey) }}></div>
           </TabContent>
         </Collapse>
       </Tab>
     );
   });
-
   function handleTabClick(idx: number) {
     setCurrentTab(TABS[idx]);
   }
@@ -84,8 +81,8 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <OverTitle>Use step</OverTitle>
-        <SectionTitle>What are the steps for using it?</SectionTitle>
+        <OverTitle>{t('useSteps.overTitle')}</OverTitle>
+        <SectionTitle>{t('useSteps.sectionTitle')}</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>

@@ -1,0 +1,190 @@
+{
+    "meta": {
+        "title": "LanPlayer - 간단한 홈 미디어 서버",
+        "keywords": "LanPlayer, 홈 미디어 서버, 홈 영화 서버, LAN 비디오 공유, LAN 미디어 플레이어, LAN 미디어 공유 앱, 로컬 비디오 서버",
+        "description": "LanPlayer는 로컬 영역 네트워크(LAN)에서 비디오/오디오를 원활하게 공유하고 재생할 수 있도록 설계된 강력한 소프트웨어입니다. 거의 모든 기기에서 대부분의 인기 있는 비디오/오디오 형식을 지원합니다."
+    },
+    "navbar": {
+        "download": "다운로드",
+        "pricing": "가격",
+        "contact": "문의하기"
+    },
+    "hero": {
+        "title": "간단한 홈 미디어 서버",
+        "description": "LanPlayer는 로컬 영역 네트워크(LAN)에서 비디오/오디오를 원활하게 공유하고 재생할 수 있도록 설계된 강력한 소프트웨어입니다. 거의 모든 기기에서 대부분의 인기 있는 비디오/오디오 형식을 지원합니다.",
+        "downloadButton": "다운로드"
+    },
+    "features": "기능",
+    "mediaShare": {
+        "title": "LAN에서 미디어 공유 및 재생",
+        "description": "로컬 네트워크 내에서 여러 기기 간에 비디오/오디오를 쉽게 공유하고 스트리밍할 수 있습니다. 가정, 사무실 또는 모든 LAN 환경에 적합합니다.",
+        "pcToPhone": "PC에서 휴대폰으로",
+        "phoneToPC": "휴대폰에서 PC로"
+    },
+    "multiDevice": {
+        "title": "다양한 기기 지원",
+        "description": "Lanplayer를 사용하여 로컬 네트워크(LAN)에서 비디오/영화를 쉽게 공유하고 재생할 수 있으며, 거의 모든 기기를 지원합니다.",
+        "devices": "지원 기기:",
+        "devicesList": "Windows, Android, Linux, MacOS, iOS",
+        "videoFormat": "비디오 형식:",
+        "videoFormatList": "MP4, AVI, MKV, FLV, WMV, RMVB, MOV…",
+        "audioFormat": "오디오 형식:",
+        "audioFormatList": "MP3, WAV, AAC, FLAC, M4A, WMA…"
+    },
+    "easyToUse": {
+        "title": "사용하기 쉬움",
+        "description": "인터넷에서 컴퓨터로 영화를 다운로드하고 침대에 누워서 휴대폰으로 보고 싶을 때가 많습니다. 하지만 이는 너무 번거롭고 휴대폰의 저장 공간도 부족합니다. Lanplayer가 도와드립니다.",
+        "features": {
+            "import": "대량 비디오 가져오기 및 삭제로 쉬운 관리.",
+            "history": "재생 기록을 지원하며, 마지막 재생 위치에서 자동으로 다시 시작.",
+            "password": "접근 비밀번호로 비디오 파일을 안전하게 보호.",
+            "language": "더 쉬운 조작을 위한 다국어 지원."
+        }
+    },
+    "webBrowser": {
+        "title": "웹브라우저에서 시청",
+        "description": "휴대폰에 소프트웨어를 다운로드할 필요 없이 웹브라우저에서 직접 시청하는 것도 지원합니다(주의: 웹페이지는 MP4, MP3와 같은 일반적인 비디오 형식만 재생을 지원하지만, 대부분의 비디오에는 충분합니다)."
+    },
+    "cta": {
+        "title": "LanPlayer에 관심이 있으시다면, 지금 바로 사용해보세요!",
+        "downloadButton": "무료로 다운로드"
+    },
+    "useSteps": {
+        "overTitle": "사용 단계",
+        "sectionTitle": "사용 단계는 어떻게 되나요?",
+        "tabs": {
+            "step1": {
+                "title": "1단계: 컴퓨터나 휴대폰에 Lanplayer를 다운로드하세요.",
+                "description": "<p>Lanplayer 소프트웨어는 Windows, Android, Linux, MacOS, iOS 등 거의 모든 기기를 지원합니다. 각 시스템의 <a href=\"\">설치 가이드</a>를 따르세요.</p>"
+            },
+            "step2": {
+                "title": "2단계: 미디어를 추가하고 공유를 시작하세요.",
+                "description": "<p>1. <strong>미디어 추가</strong>. 시청하고 싶은 비디오/오디오를 Lanplayer에 추가하세요. 폴더를 직접 가져오거나 여러 비디오/오디오를 선택하여 추가할 수 있습니다.</p><p>2. <strong>공유 시작</strong>. \"<strong>공유 시작</strong>\" 버튼을 클릭하세요.</p>"
+            },
+            "step3": {
+                "title": "3단계: 휴대폰에서 비디오를 시청하세요.",
+                "description": "<p><font color=\"red\">주의:</font> <strong>기기가 같은 LAN에 있는지 확인하세요</strong>.</p><p>모바일 앱 하단의 \"LAN\" 버튼을 클릭하면, 앱이 자동으로 로컬 영역 네트워크(LAN) 내에서 비디오 리소스를 공유하는 기기를 검색하기 시작합니다. 사용자는 감지된 기기 목록을 보고 원하는 기기를 클릭하여 해당 기기에서 공유된 비디오에 접근하고 시청할 수 있습니다.</p>"
+            },
+            "step4": {
+                "title": "다른 옵션: 웹브라우저에서 비디오 시청.",
+                "description": "<p><strong>1.</strong> 비디오를 공유하는 기기에서 앱 하단의 \"QR코드\" 아이콘을 찾아 클릭하여 QR코드를 표시합니다.</p><p><strong>2.</strong>휴대폰에서 Firefox나 Chrome과 같은 브라우저를 열고 QR코드를 스캔하면 즉시 비디오에 접근하여 시청할 수 있습니다.</p><p><font color=\"red\">주의:</font> <strong>일부 비디오 형식은 웹에서 지원되지 않습니다. 3단계처럼 앱을 사용하여 재생할 수 있습니다</strong>.</p>"
+            }
+        }
+    },
+    "faq": {
+        "title": "자주 묻는 질문",
+        "serial_number": {
+            "question": "각 기기마다 별도의 시리얼 번호를 구매해야 하나요?",
+            "answer": "모든 기기를 등록하는 데 하나만 구매하면 되며, 가격 페이지에서 지원되는 구체적인 기기 수를 확인할 수 있습니다."
+        },
+        "video_formats": {
+            "question": "웹브라우저가 모든 비디오 형식을 지원하지 않는 이유는 무엇인가요?",
+            "answer": "HTML5 표준은 일반적인 미디어 형식과 코덱만 지원합니다. MP4는 브라우저에서 가장 널리 지원되는 형식이며, 오늘날 대부분의 비디오가 이 형식입니다."
+        },
+        "free_trial": {
+            "question": "무료로 사용할 수 있나요?",
+            "answer": "7일 동안 무료로 사용해 볼 수 있습니다. 그 후에는 구매가 필요하지만, 걱정하지 마세요. 가격이 매우 저렴하며, 향후 업데이트는 무료로 제공됩니다."
+        },
+        "installation": {
+            "question": "모든 기기에 소프트웨어를 설치해야 하나요?",
+            "answer": "비디오를 공유하는 기기에만 소프트웨어를 설치하면 됩니다. 다른 기기는 내장 브라우저로 설치 없이 시청할 수 있습니다."
+        },
+        "security": {
+            "question": "얼마나 안전한가요?",
+            "answer": "소프트웨어에서 접근 비밀번호를 설정할 수 있어 개인정보가 보호됩니다."
+        },
+        "quality": {
+            "question": "비디오 품질은 어떤가요?",
+            "answer": "재생 품질이 원본 비디오와 동일하며, 출력 품질의 저하가 없음을 보장합니다."
+        },
+        "video_size": {
+            "question": "어떤 크기의 비디오를 재생할 수 있나요?",
+            "answer": "로컬 영역 네트워크에서 1080p와 4K 비디오 재생은 일반적으로 문제가 없습니다."
+        }
+    },
+    "download": {
+        "title": "다운로드",
+        "description": "Windows, macOS, Linux, Android, iOS용 Lanplayer를 다운로드하세요.",
+        "sectionTitle": "설치할 시스템 선택",
+        "installation": {
+            "title": "설치 안내",
+            "windows": {
+                "title": "Windows",
+                "description": "Windows에는 두 가지 배포판이 있습니다. 하나는 포터블 버전이고 다른 하나는 설치 버전입니다.",
+                "installer": "1. 설치 버전. .exe 파일을 다운로드하고 다른 소프트웨어와 같은 방식으로 설치합니다.",
+                "portable": "2. 포터블 버전. 이 버전은 설치가 필요 없으며, 압축을 풀고 실행하기만 하면 됩니다."
+            },
+            "android": {
+                "title": "Android",
+                "description": "Android 버전은 .apk 파일을 제공하며, 직접 다운로드하여 설치할 수 있고 모든 CPU 아키텍처를 지원합니다."
+            },
+            "macos": {
+                "title": "macOS",
+                "description": "MacOS 버전은 .dmg 파일을 제공합니다. 파일을 다운로드하고 앱을 Applications 폴더로 드래그하여 설치하세요.",
+                "tip": "팁: 설치에 실패한 경우, 터미널을 열고 진정한 해커처럼 명령어를 실행하세요",
+                "command": "sudo xattr -rd com.apple.quarantine /Applications/LanPlayer.app"
+            },
+            "linux": {
+                "title": "Linux",
+                "description": "Linux 버전은 간단한 .zip 파일을 제공하며, 다운로드하여 압축을 풀 수 있습니다. 실행하기 전에 mvp를 설치해야 합니다: <code>sudo apt install libmpv-dev mpv</code>"
+            }
+        },
+        "faq": {
+            "title": "자주 묻는 질문",
+            "installation": {
+                "question": "모든 기기에 소프트웨어를 설치해야 하나요?",
+                "answer": "미디어를 공유하는 기기에만 소프트웨어를 설치하면 됩니다. 다른 기기는 내장 브라우저로 설치 없이 시청할 수 있습니다."
+            }
+        }
+    },
+    "pricing": {
+        "title": "가격",
+        "description": "모두를 위한 저렴한 가격.",
+        "h1title": "유연하고 저렴한 가격",
+        "plans": {
+            "free": {
+                "title": "무료",
+                "price": "₩0",
+                "period": "/주",
+                "benefits": [
+                    "7일 체험",
+                    "제한 없음"
+                ]
+            },
+            "yearly": {
+                "title": "1년",
+                "price": "₩15,000",
+                "period": "/1년",
+                "benefits": [
+                    "1개의 시리얼 번호",
+                    "10개 기기 등록",
+                    "제한 없음"
+                ]
+            },
+            "threeYear": {
+                "title": "3년",
+                "price": "₩30,000",
+                "period": "/3년",
+                "benefits": [
+                    "1개의 시리얼 번호",
+                    "30개 기기 등록",
+                    "제한 없음"
+                ]
+            },
+            "permanent": {
+                "title": "영구",
+                "price": "₩45,000",
+                "period": "/영구",
+                "benefits": [
+                    "1개의 시리얼 번호",
+                    "100개 기기 등록",
+                    "제한 없음"
+                ]
+            }
+        }
+    },
+    "contact": {
+        "title": "문의하기",
+        "description": "피드백이 있으신가요? 이메일이나 GitHub issues를 통해 언제든지 연락하실 수 있습니다."
+    }
+}

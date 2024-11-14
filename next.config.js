@@ -1,4 +1,5 @@
 const CopyPlugin = require('copy-webpack-plugin');
+const { i18n } = require('./next-i18next.config')
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
@@ -16,6 +17,7 @@ module.exports = withBundleAnalyzer({
   compiler: {
     styledComponents: true,
   },
+  i18n,
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.module.rules.push({
       test: /\.svg$/,

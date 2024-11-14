@@ -1,6 +1,7 @@
 import NextLink from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
+import { useTranslation } from 'next-i18next';
 import Button from 'components/Button';
 import ButtonGroup from 'components/ButtonGroup';
 import Container from 'components/Container';
@@ -9,15 +10,16 @@ import SectionTitle from 'components/SectionTitle';
 import { media } from 'utils/media';
 
 export default function Cta() {
+  const { t } = useTranslation('common');
   return (
     <CtaWrapper>
       <Container>
         <Stack>
-          <SectionTitle>So, if you're interested in LanPlayer, start using it now!</SectionTitle>
+          <SectionTitle>{t('cta.title')}</SectionTitle>
           <ButtonGroup>
             <NextLink href="/download" passHref>
               <Button>
-                Download for free <span>&rarr;</span>
+                {t('cta.downloadButton')} <span>&rarr;</span>
               </Button>
             </NextLink>
           </ButtonGroup>
