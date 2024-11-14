@@ -5,7 +5,7 @@
     <img src="public/illustration-1.svg" alt="Logo"  width="80%">
   </a>
 
-  <h1 align="center">✨ Watch video in LAN ✨</h1>
+  <h1 align="center">✨ Simple home media server ✨</h1>
 
   <p align="center">
    LanPlayer is a powerful software designed for seamless video sharing and playback across local area networks (LAN).🚀 It supports almost all popular video formats on almost all devices.
@@ -61,39 +61,26 @@
         <tr>
             <td rowspan=2>Windows</td>
             <td><code>EXE Installer</code></td>
-            <td><a href="">Link</a></td>
+            <td><a href="https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/Lanplayer-v1.0.0-windows.exe">Link</a></td>
         </tr>
         <tr>
             <td><code>Portable ZIP</code></td>
-            <td><a href="">Link</a></td>
+            <td><a href="https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/LanPlayer-v1.0.0-windows-protable.zip">Link</a></td>
         </tr>
         <tr>
             <td>MacOS</td>
             <td><code>DMG Installer</code></td>          
-            <td><a href="">Link</a></td>
+            <td><a href="https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/lanplayer-v1.0.0-macos.dmg">Link</a></td>
         </tr>
         <tr>
-            <td rowspan=3>Linux</td>
-            <td><code>Flathub</code></td>
-            <td><a href="">Link</a></td>
-        </tr>
-        <tr>
-            <td><code>SNAP</code></td>
-            <td><a href="">Link</a></td>
-        </tr>
-        <tr>
-            <td><code>DEB</code></td>
-            <td><a href="">Link</a></td>
+            <td>Linux</td>
+            <td><code>Zip</code></td>
+            <td><a href="https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/lanplayer-v1.0.0-linux-protable.zip">Link</a></td>
         </tr>
         <tr>
             <td>Android</td>
             <td><code>APK</code></td>
-            <td><a href="">Link</a></td>
-        </tr>
-        <tr>
-            <td>iOS</td>
-            <td><code>IPA</code></td>
-            <td><a href="">Link</a></td>
+            <td><a href="https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/Lanplayer-v1.0.0-android.apk">Link</a></td>
         </tr>
     </tbody>
 </table>
