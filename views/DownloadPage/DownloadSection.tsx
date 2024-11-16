@@ -54,15 +54,16 @@ export default function PricingTablesSection() {
         <DownloadCard
           title="Linux"
           requirements={[
-            'Ubuntu 18.04 or higher',
-            'Debian 10 or higher',
-            'CentOS 7 or higher',
-            'Fedora 31 or higher',
+            'Ubuntu 22 or higher',
+            'Debian 12 or higher',
+            'Fedora 38 or higher',
+            'openSUSE 15.5 or higher',
+            'centOS 8 or higher',
           ]}
           btns={[
             {
-                label: 'Protable .zip',
-                url: "https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/lanplayer-v1.0.0-linux-protable.zip",
+                label: 'Download .AppImage',
+                url: "https://github.com/freedomlight2015/lanplayer/releases/download/lanplayer-v1.0.0/lanplayer-v1.0.0-linux.AppImage",
               },
           ]}
         >

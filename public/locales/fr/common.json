@@ -2,7 +2,7 @@
     "meta": {
         "title": "LanPlayer - Serveur multimédia domestique simple",
         "keywords": "LanPlayer, Serveur multimédia domestique, Serveur de films domestique, Partage vidéo LAN, Lecteur multimédia LAN, Application de partage multimédia LAN, Serveur vidéo local",
-        "description": "LanPlayer est un logiciel puissant conçu pour le partage et la lecture fluide de vidéos/audio sur les réseaux locaux (LAN). Il prend en charge presque tous les formats vidéo/audio populaires sur presque tous les appareils."
+        "description": "LanPlayer - Logiciel puissant de partage et de lecture vidéo/audio pour les réseaux locaux (LAN). Prend en charge tous les formats principaux sur tous les appareils, garantissant une diffusion et une lecture de médias sans interruption."
     },
     "navbar": {
         "download": "Télécharger",
@@ -126,7 +126,9 @@
             },
             "linux": {
                 "title": "Linux",
-                "description": "La version Linux fournit un simple fichier .zip, qui peut être téléchargé et décompressé. Avant l'exécution, il faut installer mvp : <code>sudo apt install libmpv-dev mpv</code>"
+                "description": "La version Linux fournit un fichier AppImage, téléchargez le fichier, ajoutez les permissions d'exécution et exécutez-le directement.",
+                "tip": "Astuce : sur ubuntu, vous devez installer libfuse2 avant d'exécuter l'AppImage si votre système ne l'a pas.",
+                "command": "sudo apt install libfuse2"
             }
         },
         "faq": {

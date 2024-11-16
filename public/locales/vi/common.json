@@ -2,7 +2,7 @@
     "meta": {
         "title": "LanPlayer - Máy Chủ Đa Phương Tiện Gia Đình Đơn Giản",
         "keywords": "LanPlayer, Máy chủ đa phương tiện gia đình, Máy chủ phim gia đình, Chia sẻ video LAN, Trình phát đa phương tiện LAN, Ứng dụng chia sẻ đa phương tiện LAN, Máy chủ video cục bộ",
-        "description": "LanPlayer là phần mềm mạnh mẽ được thiết kế để chia sẻ và phát video/âm thanh một cách mượt mà qua mạng cục bộ (LAN). Nó hỗ trợ hầu hết các định dạng video/âm thanh phổ biến trên hầu hết các thiết bị."
+        "description": "LanPlayer - Phần mềm chia sẻ và phát video/audio mạnh mẽ cho mạng LAN. Hỗ trợ tất cả các định dạng chính trên mọi thiết bị, đảm bảo truyền phát và phát lại media mượt mà."
     },
     "navbar": {
         "download": "Tải xuống",
@@ -126,7 +126,9 @@
             },
             "linux": {
                 "title": "Linux",
-                "description": "Phiên bản Linux cung cấp tệp .zip đơn giản, có thể tải xuống và giải nén. Trước khi chạy nên cài đặt mvp: <code>sudo apt install libmpv-dev mpv</code>"
+                "description": "Phiên bản Linux cung cấp tệp AppImage, tải xuống tệp, thêm quyền thực thi và chạy trực tiếp.",
+                "tip": "Mẹo: trên ubuntu, bạn phải cài đặt libfuse2 trước khi chạy AppImage nếu hệ thống của bạn không có nó.",
+                "command": "sudo apt install libfuse2"
             }
         },
         "faq": {

@@ -2,7 +2,7 @@
     "meta": {
         "title": "LanPlayer - Simple Home Media Server",
         "keywords": "LanPlayer, Home media server, Home movie server, LAN video sharing, LAN media player, LAN media sharing app, Local video server",
-        "description": "LanPlayer is a powerful software designed for seamless video/audio sharing and playback across local area networks (LAN). It supports almost all popular video/audio formats on almost all devices."
+        "description": "LanPlayer - A simple and powerful home media server for video/audio sharing and playback over local area networks (LAN). Enjoy seamless streaming across devices with support for all major formats."
     },
     "navbar": {
         "download": "Download",
@@ -55,7 +55,7 @@
         "tabs": {
             "step1": {
                 "title": "Step 1: Download the Lanplayer to your computer or phone.",
-                "description": "<p>Then lanplayer software support almost all devices, Windows, Android, Linux, MacOS, iOS. follow the <a href=\"\">installation guides</a> for different systems.</p>"
+                "description": "<p>Then lanplayer software support almost all devices, Windows, Android, Linux, MacOS, iOS. follow the <a href=\"/download\">installation guides</a> for different systems.</p>"
             },
             "step2": {
                 "title": "Step 2: Add media and start share.",
@@ -126,7 +126,9 @@
             },
             "linux": {
                 "title": "Linux",
-                "description": "The Linux version provides a simple .zip file, which can be downloaded and unzipped.Before running should install mvp: <code>sudo apt install libmpv-dev mpv</code>"
+                "description": "The Linux version provides a AppImage file, download the file，add execute permission and run it directly.",
+                "tip": "Tip: on ubuntu, you must install libfuse2 before running the AppImage if you system dont have it.",
+                "command": "sudo apt install libfuse2"
             }
         },
         "faq": {

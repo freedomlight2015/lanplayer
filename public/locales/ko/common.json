@@ -126,7 +126,9 @@
             },
             "linux": {
                 "title": "Linux",
-                "description": "Linux 버전은 간단한 .zip 파일을 제공하며, 다운로드하여 압축을 풀 수 있습니다. 실행하기 전에 mvp를 설치해야 합니다: <code>sudo apt install libmpv-dev mpv</code>"
+                "description": "Linux 버전은 AppImage 파일을 제공합니다. 파일을 다운로드하고 실행 권한을 추가한 후 직접 실행하세요.",
+                "tip": "팁: ubuntu에서는 AppImage를 실행하기 전에 libfuse2를 설치해야 합니다.",
+                "command": "sudo apt install libfuse2"
             }
         },
         "faq": {

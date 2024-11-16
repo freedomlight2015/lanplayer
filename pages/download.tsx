@@ -38,6 +38,7 @@ const DownloadPage = () => {
 
         <Accordion title={t('download.installation.linux.title')} isOpen={true}>
           <p>{t('download.installation.linux.description')}</p>
+          <p><strong>{t('download.installation.linux.tip')}</strong> <code>{t('download.installation.linux.command')}</code></p>
         </Accordion>
 
         <Separator />

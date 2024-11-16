@@ -2,7 +2,7 @@
     "meta": {
         "title": "LanPlayer - シンプルなホームメディアサーバー",
         "keywords": "LanPlayer, ホームメディアサーバー, ホームムービーサーバー, LANビデオ共有, LANメディアプレーヤー, LANメディア共有アプリ, ローカルビデオサーバー",
-        "description": "LanPlayerは、ローカルエリアネットワーク（LAN）でのビデオ/オーディオのシームレスな共有と再生のために設計された強力なソフトウェアです。ほぼすべてのデバイスで一般的なビデオ/オーディオ形式をサポートしています。"
+        "description": "LanPlayer - ローカルエリアネットワーク（LAN）向けの強力なビデオ/オーディオ共有および再生ソフトウェア。すべてのデバイスで主要なフォーマットをサポートし、シームレスなメディアストリーミングと再生を保証します。"
     },
     "navbar": {
         "download": "ダウンロード",
@@ -126,7 +126,9 @@
             },
             "linux": {
                 "title": "Linux",
-                "description": "Linux版はシンプルな.zipファイルを提供しており、ダウンロードして解凍できます。実行前にmvpをインストールする必要があります：<code>sudo apt install libmpv-dev mpv</code>"
+                "description": "Linux版はAppImageファイルを提供しており、ファイルをダウンロードし、実行権限を追加して直接実行できます。",
+                "tip": "ヒント：ubuntuでは、AppImageを実行する前にlibfuse2をインストールする必要があります。",
+                "command": "sudo apt install libfuse2"
             }
         },
         "faq": {

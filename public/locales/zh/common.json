@@ -2,7 +2,7 @@
     "meta": {
         "title": "LanPlayer - 简单的家庭媒体服务器",
         "keywords": "LanPlayer, 家庭媒体服务器, 家庭影院服务器, 局域网视频共享, 局域网媒体播放器, 局域网媒体共享应用, 本地视频服务器",
-        "description": "LanPlayer 是一款强大的软件，专为局域网（LAN）中的视频/音频无缝共享和播放而设计。它支持几乎所有设备上的大多数流行视频/音频格式。"
+        "description": "LanPlayer - 简单强大的视频/音频共享和播放软件，支持局域网（LAN）环境。跨设备支持所有主流格式，确保无缝的媒体流媒体播放和回放。"
     },
     "navbar": {
         "download": "下载",
@@ -59,15 +59,15 @@
             },
             "step2": {
                 "title": "步骤2：添加媒体并开始共享。",
-                "description": "<p>1. <strong>添加媒体</strong>。将你想看的视频/音频添加到 Lanplayer。你可以直接导入文件夹或选择多个视频/音频添加。</p><p>2. <strong>开始共享</strong>。点击"<strong>开始共享</strong>"按钮。</p>"
+                "description": "<p>1. <strong>添加媒体</strong>。将你想看的视频/音频添加到 Lanplayer。你可以直接导入文件夹或选择多个视频/音频添加。</p><p>2. <strong>开始共享</strong>。点击\"<strong>开始共享</strong>\"按钮。</p>"
             },
             "step3": {
                 "title": "步骤3：在手机上观看视频。",
-                "description": "<p><font color=\"red\">注意：</font> <strong>确保你的设备在同一个局域网内</strong>。</p><p>点击手机应用底部的"LAN"按钮后，应用会自动开始搜索局域网（LAN）内共享视频资源的设备。用户可以看到检测到的设备列表，点击任意设备即可访问和观看该设备上共享的视频。</p>"
+                "description": "<p><font color=\"red\">注意：</font> <strong>确保你的设备在同一个局域网内</strong>。</p><p>点击手机应用底部的\"LAN\"按钮后，应用会自动开始搜索局域网（LAN）内共享视频资源的设备。用户可以看到检测到的设备列表，点击任意设备即可访问和观看该设备上共享的视频。</p>"
             },
             "step4": {
                 "title": "其他选项：在网页浏览器中观看。",
-                "description": "<p><strong>1.</strong> 在共享视频的设备上，找到应用底部的"二维码"图标并点击显示二维码。</p><p><strong>2.</strong>在手机上打开 Firefox 或 Chrome 等浏览器，扫描二维码即可立即访问和观看视频。</p><p><font color=\"red\">注意：</font> <strong>某些视频格式在网页上不支持，可以像步骤3那样使用应用播放</strong>。</p>"
+                "description": "<p><strong>1.</strong> 在共享视频的设备上，找到应用底部的\"二维码\"图标并点击显示二维码。</p><p><strong>2.</strong>在手机上打开 Firefox 或 Chrome 等浏览器，扫描二维码即可立即访问和观看视频。</p><p><font color=\"red\">注意：</font> <strong>某些视频格式在网页上不支持，可以像步骤3那样使用应用播放</strong>。</p>"
             }
         }
     },
@@ -126,7 +126,9 @@
             },
             "linux": {
                 "title": "Linux",
-                "description": "Linux 版本提供简单的 .zip 文件，可以下载解压。运行前需要安装 mvp：<code>sudo apt install libmpv-dev mpv</code>"
+                "description": "Linux 版本提供 AppImage 文件，下载文件，添加执行权限并直接运行。",
+                "tip": "提示：在 ubuntu 上，运行 AppImage 之前需要安装 libfuse2，如果系统没有安装它。",
+                "command": "sudo apt install libfuse2"
             }
         }
     },
